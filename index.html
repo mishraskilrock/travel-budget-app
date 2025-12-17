@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Budget Calculator</title>
+
+  <!-- SheetJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Travel Budget Calculator</h2>
+
+<input type="file" id="fileInput" accept=".xlsx">
+
+<br><br>
+
+<select id="city"></select>
+<select id="hotel"></select>
+<select id="room"></select>
+<select id="plan"></select>
+
+<br><br>
+
+<input type="number" id="single" placeholder="Single Rooms">
+<input type="number" id="double" placeholder="Double Rooms">
+<input type="number" id="extra" placeholder="Extra Persons">
+
+<br><br>
+
+<button onclick="calculate()">Calculate Budget</button>
+<button onclick="exportPDF()">Export PDF</button>
+
+<h3 id="result"></h3>
+
+<script src="script.js"></script>
+</body>
+</html>
