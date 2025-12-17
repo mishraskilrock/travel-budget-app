@@ -27,21 +27,31 @@ function populateHotels() {
 }
 
 function populateRooms() {
-  const cityVal = document.getElementById("city").value;
-  const hotelVal = document.getElementById("hotel").value;
+  const cityVal = document.getElementById("city").value.trim().toUpperCase();
+  const hotelVal = document.getElementById("hotel").value.trim().toUpperCase();
   const room = document.getElementById("room");
 
   room.innerHTML = `<option value="">Select Room</option>`;
   document.getElementById("plan").innerHTML = `<option value="">Select Plan</option>`;
 
-  [...new Set(
-    data
-      .filter(d => d.City === cityVal && d.Hotel === hotelVal)
-      .map(d => d["ROOM CATEGORY"])
-  )].forEach(r => {
-    room.innerHTML += `<option>${r}</option>`;
+  const rooms = [
+    ...new Set(
+      data
+        .filter(d =>
+          d.City?.trim().toUpperCase() === cityVal &&
+          d.Hotel?.trim().toUpperCase() === hotelVal
+        )
+        .map(d => d["ROOM CATEGORY"])
+    )
+  ];
+
+  console.log("Rooms Found:", rooms); // 🔍 DEBUG
+
+  rooms.forEach(r => {
+    room.innerHTML += `<option value="${r}">${r}</option>`;
   });
 }
+
 
 
 function populatePlans() {
@@ -104,4 +114,5 @@ function downloadPDF() {
   doc.text(document.getElementById("result").innerText, 20, 30);
   doc.save("Travel_Budget.pdf");
 }
+
 
