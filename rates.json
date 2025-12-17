@@ -1,0 +1,3522 @@
+[
+  {
+    "City": "AGRA",
+    "Hotel": "Howard Plaza The Fern",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3900.0,
+    "DOUBLE": 4400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "AGRA",
+    "Hotel": "Howard Plaza The Fern",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4600.0,
+    "DOUBLE": 5100.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "AMRITSAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3900.0,
+    "DOUBLE": 4400.0,
+    "EXTRA PERSON": 1100.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "AMRITSAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4400.0,
+    "DOUBLE": 4900.0,
+    "EXTRA PERSON": 1100.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "BHIMTAL (NAINITAL)",
+    "Hotel": "The Fern Hillside Resort",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4800.0,
+    "DOUBLE": 5300.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  600   |   D :  600 "
+  },
+  {
+    "City": "BHIMTAL (NAINITAL)",
+    "Hotel": "The Fern Hillside Resort",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5300.0,
+    "DOUBLE": 5800.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  600   |   D :  600 "
+  },
+  {
+    "City": "BHIMTAL (NAINITAL)",
+    "Hotel": "The Fern Hillside Resort",
+    "ROOM CATEGORY": "Fern Club Premium",
+    "PLAN": "CP",
+    "SINGLE": 5800.0,
+    "DOUBLE": 6300.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  600   |   D :  600 "
+  },
+  {
+    "City": "BHOPAL",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4300.0,
+    "DOUBLE": 4800.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "BHOPAL",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 5800.0,
+    "DOUBLE": 6290.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "BHOPAL",
+    "Hotel": "Grand Ashirwad Beacon",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2600.0,
+    "DOUBLE": 3100.0,
+    "EXTRA PERSON": 700.0,
+    "MEALS": "L :  400   |   D :  450 "
+  },
+  {
+    "City": "BHOPAL",
+    "Hotel": "Grand Ashirwad Beacon",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 2800.0,
+    "DOUBLE": 3300.0,
+    "EXTRA PERSON": 700.0,
+    "MEALS": "L :  400   |   D :  450 "
+  },
+  {
+    "City": "BHOPAL",
+    "Hotel": "Grand Ashirwad Beacon",
+    "ROOM CATEGORY": "Grand Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 3200.0,
+    "DOUBLE": 3700.0,
+    "EXTRA PERSON": 700.0,
+    "MEALS": "L :  400   |   D :  450 "
+  },
+  {
+    "City": "BODHGAYA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3500.0,
+    "DOUBLE": 4000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "BODHGAYA",
+    "Hotel": "Dobhi Road, Near Domuhan, Gaya-Dobhi Rd, Bodh Gaya\nRooms: 63",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": 4500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "BODHGAYA",
+    "Hotel": "Dobhi Road, Near Domuhan, Gaya-Dobhi Rd, Bodh Gaya\nRooms: 63",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "CHANDIGARH",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4200.0,
+    "DOUBLE": 4700.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "CHANDIGARH",
+    "Hotel": "2, Chandigarh\nRooms: 34",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "CHANDIGARH",
+    "Hotel": "2, Chandigarh\nRooms: 34",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 7000.0,
+    "DOUBLE": 7490.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "CORBETT",
+    "Hotel": "Debu's The Fern Resort & SPA",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 7000.0,
+    "DOUBLE": 7500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "CORBETT",
+    "Hotel": "Debu's The Fern Resort & SPA",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 7500.0,
+    "DOUBLE": 8000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "CORBETT",
+    "Hotel": "Debu's The Fern Resort & SPA",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 8000.0,
+    "DOUBLE": 8500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "DEHRADUN",
+    "Hotel": "Grand Legacy Beacon, Dehradun",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2500.0,
+    "DOUBLE": 3000.0,
+    "EXTRA PERSON": 800.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "DEHRADUN",
+    "Hotel": "Grand Legacy Beacon, Dehradun",
+    "ROOM CATEGORY": "Superior Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2800.0,
+    "DOUBLE": 3300.0,
+    "EXTRA PERSON": 800.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "DEHRADUN",
+    "Hotel": "Grand Legacy Beacon, Dehradun",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 3100.0,
+    "DOUBLE": 3600.0,
+    "EXTRA PERSON": 800.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "DHARAMPUR (KASAULI HILLS)",
+    "Hotel": "The Fern\nSurya Resort",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 4200 / 4200 ",
+    "DOUBLE": " 5000 / 5000 ",
+    "EXTRA PERSON": 1350.0,
+    "MEALS": "L :  800   |   D :  800 "
+  },
+  {
+    "City": "DHARAMPUR (KASAULI HILLS)",
+    "Hotel": "The Fern\nSurya Resort",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": " 5500 / 5500 ",
+    "DOUBLE": " 6300 / 6300 ",
+    "EXTRA PERSON": 1350.0,
+    "MEALS": "L :  800   |   D :  800 "
+  },
+  {
+    "City": "DHARAMPUR (KASAULI HILLS)",
+    "Hotel": "Shimla Highway,\nDharampur (Kasauli Hills)\nRooms: 41",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": " 8000 / 8000 ",
+    "DOUBLE": " 9300 / 9300 ",
+    "EXTRA PERSON": 1350.0,
+    "MEALS": "L :  800   |   D :  800 "
+  },
+  {
+    "City": "HARIDWAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3200.0,
+    "DOUBLE": 3700.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "HARIDWAR",
+    "Hotel": "58, Opp Dev Sanskriti University, Rishikesh Road, Haridwar\nRooms: 55",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4200.0,
+    "DOUBLE": 4700.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KATRA (VAISHNO DEVI)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3400.0,
+    "DOUBLE": 3700.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KATRA (VAISHNO DEVI)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 3900.0,
+    "DOUBLE": 4200.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KATRA (VAISHNO DEVI)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 6300.0,
+    "DOUBLE": 6300.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KATRA (VAISHNO DEVI)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Peak Period Supplement :  300 extra on the above rates from 01st October to 31st December 2025 ",
+    "PLAN": "CP",
+    "SINGLE": 6300.0,
+    "DOUBLE": 6300.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "MUSSOORIE",
+    "Hotel": "The Fern Brentwood Resort",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 7000.0,
+    "DOUBLE": 7000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "MUSSOORIE",
+    "Hotel": "The Fern Brentwood Resort",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 7500.0,
+    "DOUBLE": 7500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "MUSSOORIE",
+    "Hotel": "The Fern Brentwood Resort",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 8000.0,
+    "DOUBLE": 8000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "MUSSOORIE",
+    "Hotel": "The Fern Brentwood Resort",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 11800.0,
+    "DOUBLE": 11800.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "MUSSOORIE",
+    "Hotel": "The Fern Brentwood Resort",
+    "ROOM CATEGORY": "Shoulder Period Discount :  900 off on the above rates from 1st February till 28th February 2026",
+    "PLAN": "CP",
+    "SINGLE": 11800.0,
+    "DOUBLE": 11800.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "NEW DELHI",
+    "Hotel": "Nirman Vihar Beacon",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 3300.0,
+    "DOUBLE": 3600.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "L :  550   |   D :  650 "
+  },
+  {
+    "City": "NEW DELHI",
+    "Hotel": "Nirman Vihar Beacon",
+    "ROOM CATEGORY": "Superior Room",
+    "PLAN": "CP",
+    "SINGLE": 3800.0,
+    "DOUBLE": 4100.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "L :  550   |   D :  650 "
+  },
+  {
+    "City": "SARNATH (VARANASI)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 7500.0,
+    "DOUBLE": 8000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  800   |   D :  800 "
+  },
+  {
+    "City": "SARNATH (VARANASI)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 8000.0,
+    "DOUBLE": 8500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  800   |   D :  800 "
+  },
+  {
+    "City": "AJMER",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3600.0,
+    "DOUBLE": 3900.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "AJMER",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 3800.0,
+    "DOUBLE": 4100.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "AJMER",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4100.0,
+    "DOUBLE": 4400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "AJMER",
+    "Hotel": "The Royal Melange Beacon",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2600.0,
+    "DOUBLE": 2900.0,
+    "EXTRA PERSON": 800.0,
+    "MEALS": "L :  500   |   D :  600 "
+  },
+  {
+    "City": "AJMER",
+    "Hotel": "The Royal Melange Beacon",
+    "ROOM CATEGORY": "Superior Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 3100.0,
+    "DOUBLE": 3300.0,
+    "EXTRA PERSON": 800.0,
+    "MEALS": "L :  500   |   D :  600 "
+  },
+  {
+    "City": "ALWAR",
+    "Hotel": "SARISKA - The Fern",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3300.0,
+    "DOUBLE": 3800.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "ALWAR",
+    "Hotel": "25,Near H P Petrol Pump, Alwar Malakheda Road, Village Dadar, PO Burja, Dist. Alwar Rooms: 57",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 3800.0,
+    "DOUBLE": 4300.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "ALWAR",
+    "Hotel": "25,Near H P Petrol Pump, Alwar Malakheda Road, Village Dadar, PO Burja, Dist. Alwar Rooms: 57",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4300.0,
+    "DOUBLE": 4800.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "BAMBORA",
+    "Hotel": "UDAIPUR - The Fern Bambora Fort",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5500.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "L :  600   |   D :  600 "
+  },
+  {
+    "City": "BAMBORA",
+    "Hotel": "UDAIPUR - The Fern Bambora Fort",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "L :  600   |   D :  600 "
+  },
+  {
+    "City": "BAMBORA",
+    "Hotel": "UDAIPUR - The Fern Bambora Fort",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 6500.0,
+    "DOUBLE": 7000.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "L :  600   |   D :  600 "
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "The Fern An Ecotel Hotel",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4500.0,
+    "DOUBLE": 5000.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "The Fern An Ecotel Hotel",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5200.0,
+    "DOUBLE": 5700.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4500.0,
+    "DOUBLE": 4800.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "13, Govind Marg, Janata Colony, Raja Park, Near Pink Square Mall, Jaipur\nRooms: 85",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 5800.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "The Fern Habitat",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4300.0,
+    "DOUBLE": 4800.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "The Fern Habitat",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4600.0,
+    "DOUBLE": 5100.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "The Fern Habitat",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4900.0,
+    "DOUBLE": 5400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "The Wall Street Beacon",
+    "ROOM CATEGORY": "Deluxe Room - City View",
+    "PLAN": "CP",
+    "SINGLE": 2800.0,
+    "DOUBLE": 3000.0,
+    "EXTRA PERSON": 900.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "7, New Colony, M.I. Road, Jaipur\nRooms: 32",
+    "ROOM CATEGORY": "Deluxe Room - Nahargarh View",
+    "PLAN": "CP",
+    "SINGLE": 3000.0,
+    "DOUBLE": 3200.0,
+    "EXTRA PERSON": 900.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "7, New Colony, M.I. Road, Jaipur\nRooms: 32",
+    "ROOM CATEGORY": "Executive Room - City View",
+    "PLAN": "CP",
+    "SINGLE": 3200.0,
+    "DOUBLE": 3400.0,
+    "EXTRA PERSON": 900.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAIPUR",
+    "Hotel": "7, New Colony, M.I. Road, Jaipur\nRooms: 32",
+    "ROOM CATEGORY": "Executive Room - Nahargarh View",
+    "PLAN": "CP",
+    "SINGLE": 3400.0,
+    "DOUBLE": 3600.0,
+    "EXTRA PERSON": 900.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAISALMER",
+    "Hotel": "SKK The Fern An Ecotel Hotel",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  600   |   D :  700 "
+  },
+  {
+    "City": "JAISALMER",
+    "Hotel": "Barmer Link Road Jaisalmer\nRooms: 105",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 6000.0,
+    "DOUBLE": 6500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  600   |   D :  700 "
+  },
+  {
+    "City": "JAISALMER",
+    "Hotel": "Barmer Link Road Jaisalmer\nRooms: 105",
+    "ROOM CATEGORY": "Peak Period Supplement :  3000 extra on the above rates from 15th October till 25th October 2025",
+    "PLAN": "CP",
+    "SINGLE": 6000.0,
+    "DOUBLE": 6500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  600   |   D :  700 "
+  },
+  {
+    "City": "JAWAI",
+    "Hotel": "Jawai Zinc Journey by The Fern",
+    "ROOM CATEGORY": "Zuper DeluxZ Room",
+    "PLAN": "AP",
+    "SINGLE": 14000.0,
+    "DOUBLE": 14000.0,
+    "EXTRA PERSON": 5000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAWAI",
+    "Hotel": "Jawai Zinc Journey by The Fern",
+    "ROOM CATEGORY": "Zuper DeluxZ Tent",
+    "PLAN": "AP",
+    "SINGLE": 15000.0,
+    "DOUBLE": 15000.0,
+    "EXTRA PERSON": 5000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAWAI",
+    "Hotel": "Jawai Zinc Journey by The Fern",
+    "ROOM CATEGORY": "Zuper Premium Tent",
+    "PLAN": "AP",
+    "SINGLE": 26000.0,
+    "DOUBLE": 26000.0,
+    "EXTRA PERSON": 5000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAWAI",
+    "Hotel": "Jawai Zinc Journey by The Fern",
+    "ROOM CATEGORY": "Zuper Premium Villa",
+    "PLAN": "AP",
+    "SINGLE": 28000.0,
+    "DOUBLE": 28000.0,
+    "EXTRA PERSON": 5000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JODHPUR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": 4500.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JODHPUR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4500.0,
+    "DOUBLE": 5000.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "NAWALGARH",
+    "Hotel": "Koolwal Kothi Zinc Journey by The Fern",
+    "ROOM CATEGORY": "Zuper DeluxZ Room",
+    "PLAN": "CP",
+    "SINGLE": 3500.0,
+    "DOUBLE": 4000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "NAWALGARH",
+    "Hotel": "Koolwal Kothi Zinc Journey by The Fern",
+    "ROOM CATEGORY": "Zuper Premium Room",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": 4500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "NAWALGARH",
+    "Hotel": "Koolwal Kothi Zinc Journey by The Fern",
+    "ROOM CATEGORY": "Zuper Luxury Room",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SAWAI MADHOPUR (RANTHAMBORE)",
+    "Hotel": "\nThe Fern Ranthambhore Forest Resort",
+    "ROOM CATEGORY": "Winter Green Cottage",
+    "PLAN": "APAI",
+    "SINGLE": " 7000 / 7000",
+    "DOUBLE": " 8000 / 8000",
+    "EXTRA PERSON": 3500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SAWAI MADHOPUR (RANTHAMBORE)",
+    "Hotel": "\nThe Fern Ranthambhore Forest Resort",
+    "ROOM CATEGORY": "Winter Green Premium Cottage",
+    "PLAN": "APAI",
+    "SINGLE": " 8000 / 8000",
+    "DOUBLE": " 8300 / 8300",
+    "EXTRA PERSON": 3500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SAWAI MADHOPUR (RANTHAMBORE)",
+    "Hotel": "\nThe Fern Ranthambhore Forest Resort",
+    "ROOM CATEGORY": "Fern Club Cottage",
+    "PLAN": "APAI",
+    "SINGLE": " 12000 / 12000",
+    "DOUBLE": " 13000 / 13000",
+    "EXTRA PERSON": 3500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "UDAIPUR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4200.0,
+    "DOUBLE": 4700.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  600   |   D :  600 "
+  },
+  {
+    "City": "UDAIPUR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  600   |   D :  600 "
+  },
+  {
+    "City": "UDAIPUR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 6500.0,
+    "DOUBLE": 7000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  600   |   D :  600 "
+  },
+  {
+    "City": "UDAIPUR",
+    "Hotel": "Avins Beacon Hotel",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2800.0,
+    "DOUBLE": 3300.0,
+    "EXTRA PERSON": 800.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "UDAIPUR",
+    "Hotel": "Avins Beacon Hotel",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 3800.0,
+    "DOUBLE": 4300.0,
+    "EXTRA PERSON": 800.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "UDAIPUR",
+    "Hotel": "The Fern Residency, Ellis Bridge",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": 4500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "UDAIPUR",
+    "Hotel": "The Fern Residency, Ellis Bridge",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "UDAIPUR",
+    "Hotel": "The Fern Residency, Ellis Bridge",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 7000.0,
+    "DOUBLE": 7000.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "AHMEDABAD",
+    "Hotel": "The Fern Residency, Subhash Bridge",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": "Rates available on request",
+    "EXTRA PERSON": "-",
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "AHMEDABAD",
+    "Hotel": "The Fern Residency, Subhash Bridge",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4700.0,
+    "DOUBLE": 5200.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "AHMEDABAD",
+    "Hotel": "The Fern Residency, Subhash Bridge",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5700.0,
+    "DOUBLE": 6200.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "AHMEDABAD",
+    "Hotel": "The Fern Residency, Subhash Bridge",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 9500.0,
+    "DOUBLE": 9500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "AHMEDABAD",
+    "Hotel": "The Fern Residency, Subhash Bridge",
+    "ROOM CATEGORY": "Winter Green rooms can only accommodate single occupancy",
+    "PLAN": "CP",
+    "SINGLE": 9500.0,
+    "DOUBLE": 9500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "AHMEDABAD",
+    "Hotel": "Kanak Beacon Hotel",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2400.0,
+    "DOUBLE": 2600.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  400   |   D :  400 "
+  },
+  {
+    "City": "ANJAR",
+    "Hotel": "KUTCH - The Fern Royal Farm Resort",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 3800 / 3800 ",
+    "DOUBLE": " 4300 / 4300 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  350   |   D :  400 "
+  },
+  {
+    "City": "ANJAR",
+    "Hotel": "Bhuj Highway, Anjar-Kutch Rooms: 74",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": " 4500 / 4500 ",
+    "DOUBLE": " 5100 / 5100 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  350   |   D :  400 "
+  },
+  {
+    "City": "ANJAR",
+    "Hotel": "Bhuj Highway, Anjar-Kutch Rooms: 74",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": "Rates available on request",
+    "DOUBLE": "Rates available on request",
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "ANJAR",
+    "Hotel": "Bhuj Highway, Anjar-Kutch Rooms: 74",
+    "ROOM CATEGORY": "Fern Club 1BHK Villa",
+    "PLAN": "CP",
+    "SINGLE": " 7100 / 7100 ",
+    "DOUBLE": " 7900 / 7900 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  350   |   D :  400 "
+  },
+  {
+    "City": "ANJAR",
+    "Hotel": "Bhuj Highway, Anjar-Kutch Rooms: 74",
+    "ROOM CATEGORY": "Fern Club 1BHK Pool Villa",
+    "PLAN": "CP",
+    "SINGLE": " 10100 / 10100 ",
+    "DOUBLE": " 11100 / 11100 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  350   |   D :  400 "
+  },
+  {
+    "City": "ANJAR",
+    "Hotel": "Bhuj Highway, Anjar-Kutch Rooms: 74",
+    "ROOM CATEGORY": "Fern Club Premium 2BHK Villa",
+    "PLAN": "CP",
+    "SINGLE": " 11800 / 11800 ",
+    "DOUBLE": " 13800 / 13800 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  350   |   D :  400 "
+  },
+  {
+    "City": "ANJAR",
+    "Hotel": "Bhuj Highway, Anjar-Kutch Rooms: 74",
+    "ROOM CATEGORY": "Fern Club Premium 2BHK Pool Villa",
+    "PLAN": "CP",
+    "SINGLE": " 15600 / 15600 ",
+    "DOUBLE": " 16900 / 16900 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  350   |   D :  400 "
+  },
+  {
+    "City": "BHAVNAGAR",
+    "Hotel": "Iscon The Fern Resort & Spa",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 4300 / 4300 ",
+    "DOUBLE": " 4800 / 4800 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "BHAVNAGAR",
+    "Hotel": "Iscon The Fern Resort & Spa",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": " 5500 / 5500 ",
+    "DOUBLE": " 5800 / 5800 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "BHAVNAGAR",
+    "Hotel": "Iscon The Fern Resort & Spa",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": " 7499 / 7499 ",
+    "DOUBLE": " 7499 / 7499 ",
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "BHAVNAGAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  350   |   D :  400 "
+  },
+  {
+    "City": "BHAVNAGAR",
+    "Hotel": "15, Madhapar Highway, Bhuj-Anjar Road, Madhapar, Bhuj",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  350   |   D :  400 "
+  },
+  {
+    "City": "DAMAN",
+    "Hotel": "The Fern Seaside Luxurious Tent Resort",
+    "ROOM CATEGORY": "Winter Green Tent",
+    "PLAN": "CP",
+    "SINGLE": " 6500 / 6500 ",
+    "DOUBLE": " 7500 / 7500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  800 "
+  },
+  {
+    "City": "DAMAN",
+    "Hotel": "The Fern Seaside Luxurious Tent Resort",
+    "ROOM CATEGORY": "Winter Green Premium Tent",
+    "PLAN": "CP",
+    "SINGLE": " 7500 / 7500 ",
+    "DOUBLE": " 8500 / 8500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  800 "
+  },
+  {
+    "City": "DAMAN",
+    "Hotel": "The Fern Seaside Luxurious Tent Resort",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": " 11000 / 11000 ",
+    "DOUBLE": " 12000 / 12000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  800 "
+  },
+  {
+    "City": "DAMAN",
+    "Hotel": "Nest Beacon Resort, Daman",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": " 3400 / 3400 ",
+    "DOUBLE": " 4000 / 4000 ",
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "DAMAN",
+    "Hotel": "Nest Beacon Resort, Daman",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": " 4400 / 4400 ",
+    "DOUBLE": " 5000 / 5000 ",
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "DHARI",
+    "Hotel": "The Fern Wisteria Resort",
+    "ROOM CATEGORY": "Winter Green Cottage",
+    "PLAN": "CP",
+    "SINGLE": " 3800 / 3800 ",
+    "DOUBLE": " 4300 / 4300 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "DHARI",
+    "Hotel": "The Fern Wisteria Resort",
+    "ROOM CATEGORY": "Winter Green Premium Cottage",
+    "PLAN": "CP",
+    "SINGLE": " 4300 / 4300 ",
+    "DOUBLE": " 4700 / 4700 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "DHARI",
+    "Hotel": "The Fern Wisteria Resort",
+    "ROOM CATEGORY": "Fern Club Premium Cottage",
+    "PLAN": "CP",
+    "SINGLE": " 4700 / 4700 ",
+    "DOUBLE": " 5100 / 5100 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "DHARI",
+    "Hotel": "The Fern Wisteria Resort",
+    "ROOM CATEGORY": "Fern Club Villa",
+    "PLAN": "CP",
+    "SINGLE": " 5400 / 5400 ",
+    "DOUBLE": " 5900 / 5900 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "DIU",
+    "Hotel": "Kamnath Zinc Journey by The Fern",
+    "ROOM CATEGORY": "Zuper Luxury Sea View Tent",
+    "PLAN": "CP",
+    "SINGLE": " 8500 / 8500 ",
+    "DOUBLE": " 10500 / 10500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "DWARKA",
+    "Hotel": "The Fern Sattva Resort",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 5000 / 5000 ",
+    "DOUBLE": " 5500 / 5500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "DWARKA",
+    "Hotel": "The Fern Sattva Resort",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": " 5500 / 5500 ",
+    "DOUBLE": " 6000 / 6000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "DWARKA",
+    "Hotel": "The Fern Sattva Resort",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": " 6000 / 6000 ",
+    "DOUBLE": " 6500 / 6500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "DWARKA",
+    "Hotel": "The Fern Sattva Resort",
+    "ROOM CATEGORY": "Fern Club Premium",
+    "PLAN": "CP",
+    "SINGLE": " 6500 / 6500 ",
+    "DOUBLE": " 7000 / 7000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "DWARKA",
+    "Hotel": "Guruprerna Beacon Resort",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": " 2700 / 2700 ",
+    "DOUBLE": " 3300 / 3300 ",
+    "EXTRA PERSON": 800.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "DWARKA",
+    "Hotel": "Guruprerna Beacon Resort",
+    "ROOM CATEGORY": "Superior Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": " 3300 / 3300 ",
+    "DOUBLE": " 3700 / 3700 ",
+    "EXTRA PERSON": 800.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "DWARKA",
+    "Hotel": "Guruprerna Beacon Resort",
+    "ROOM CATEGORY": "Executive Premium Room",
+    "PLAN": "CP",
+    "SINGLE": " 4200 / 4200 ",
+    "DOUBLE": " 4700 / 4700 ",
+    "EXTRA PERSON": 800.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "DWARKA",
+    "Hotel": "Guruprerna Beacon Resort",
+    "ROOM CATEGORY": "Grand Executive Room",
+    "PLAN": "CP",
+    "SINGLE": " 4700 / 4700 ",
+    "DOUBLE": " 5200 / 5200 ",
+    "EXTRA PERSON": 800.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "EKTA NAGAR (KEVADIA)",
+    "Hotel": "The Fern Sardar Sarovar Resort",
+    "ROOM CATEGORY": "Winter Green City View Room",
+    "PLAN": "CP",
+    "SINGLE": " 6500 / 6500 ",
+    "DOUBLE": " 7500 / 7500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "EKTA NAGAR (KEVADIA)",
+    "Hotel": "The Fern Sardar Sarovar Resort",
+    "ROOM CATEGORY": "Winter Green River View Room",
+    "PLAN": "CP",
+    "SINGLE": " 7000 / 7000 ",
+    "DOUBLE": " 8000 / 8000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "EKTA NAGAR (KEVADIA)",
+    "Hotel": "The Fern Sardar Sarovar Resort",
+    "ROOM CATEGORY": "Winter Green Premium Garden View Room",
+    "PLAN": "CP",
+    "SINGLE": " 7500 / 7500 ",
+    "DOUBLE": " 8500 / 8500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "EKTA NAGAR (KEVADIA)",
+    "Hotel": "The Fern Sardar Sarovar Resort",
+    "ROOM CATEGORY": "Winter Green Premium Pool View Room",
+    "PLAN": "CP",
+    "SINGLE": " 8000 / 8000 ",
+    "DOUBLE": " 9000 / 9000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "EKTA NAGAR (KEVADIA)",
+    "Hotel": "The Fern Sardar Sarovar Resort",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": " 10000 / 10000 ",
+    "DOUBLE": " 11000 / 11000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "GANDHINAGAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4300.0,
+    "DOUBLE": 4800.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "GANDHINAGAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4800.0,
+    "DOUBLE": 5300.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "GANDHINAGAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5300.0,
+    "DOUBLE": 5800.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "GANDHINAGAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Premium",
+    "PLAN": "CP",
+    "SINGLE": 6300.0,
+    "DOUBLE": 6800.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "GANDHINAGAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CP",
+    "SINGLE": 8300.0,
+    "DOUBLE": 9300.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  500   |   D :  500 "
+  },
+  {
+    "City": "GANDHINAGAR",
+    "Hotel": "Bhanu The Fern Forest Resort & Spa",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 6500 / 6500 ",
+    "DOUBLE": " 10500 / 10500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "GANDHINAGAR",
+    "Hotel": "Bhanu The Fern Forest Resort & Spa",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": " 7500 / 7500 ",
+    "DOUBLE": " 11500 / 11500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "GANDHINAGAR",
+    "Hotel": "Bhanu The Fern Forest Resort & Spa",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CP",
+    "SINGLE": " 12500 / 12500 ",
+    "DOUBLE": " 18000 / 18000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "GANDHINAGAR",
+    "Hotel": "Bhanu The Fern Forest Resort & Spa",
+    "ROOM CATEGORY": "Fern Club Villa",
+    "PLAN": "CP",
+    "SINGLE": " 25000 / 25000 ",
+    "DOUBLE": " 35000 / 35000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "JAMNAGAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3500.0,
+    "DOUBLE": 4000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAMNAGAR",
+    "Hotel": "Veg in Banquets)",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": 4500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAMNAGAR",
+    "Hotel": "Veg in Banquets)",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 7200.0,
+    "DOUBLE": 7200.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "JAMNAGAR",
+    "Hotel": "Anaya Beacon Hotel",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2800.0,
+    "DOUBLE": 3300.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAMNAGAR",
+    "Hotel": "Anaya Beacon Hotel",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 3300.0,
+    "DOUBLE": 3800.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JAMNAGAR",
+    "Hotel": "Anaya Beacon Hotel",
+    "ROOM CATEGORY": "Executive Premium Room",
+    "PLAN": "CP",
+    "SINGLE": 3800.0,
+    "DOUBLE": 4300.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JUNAGADH",
+    "Hotel": "The Fern Leo Resort & Club",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 4700 / 4700 ",
+    "DOUBLE": " 5700 / 5700 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "JUNAGADH",
+    "Hotel": "The Fern Leo Resort & Club",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": " 5700 / 5700 ",
+    "DOUBLE": " 7200 / 7200 ",
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "JUNAGADH",
+    "Hotel": "The Fern Leo Resort & Club",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CP",
+    "SINGLE": "Rates available on request",
+    "DOUBLE": "Rates available on request",
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "LITTLE RANN OF KUTCH",
+    "Hotel": "The Fern Sattva Resort",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": " 6000 / 6000 ",
+    "DOUBLE": " 7000 / 7000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "LITTLE RANN OF KUTCH",
+    "Hotel": "The Fern Sattva Resort",
+    "ROOM CATEGORY": "Fern Club Villa",
+    "PLAN": "CP",
+    "SINGLE": " 7000 / 7000 ",
+    "DOUBLE": " 8000 / 8000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "LITTLE RANN OF KUTCH",
+    "Hotel": "Patdi Highway Bajana (Savlas)\nRooms: 47",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": " 8500 / 8500 ",
+    "DOUBLE": " 9500 / 9500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "LITTLE RANN OF KUTCH",
+    "Hotel": "Patdi Highway Bajana (Savlas)\nRooms: 47",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CP",
+    "SINGLE": " 10500 / 10500 ",
+    "DOUBLE": " 11500 / 11500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "MADHAVPUR",
+    "Hotel": "The Fern Leo Beach Resort",
+    "ROOM CATEGORY": "Winter Green Cottage",
+    "PLAN": "CP",
+    "SINGLE": " 5000 / 5000 ",
+    "DOUBLE": " 6000 / 6000 ",
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "MADHAVPUR",
+    "Hotel": "Porbandar Highway, Opp. Tortoise Nurture Center, Madhavpur",
+    "ROOM CATEGORY": "Winter Green Cottage",
+    "PLAN": "CP",
+    "SINGLE": " 5000 / 5000 ",
+    "DOUBLE": " 6000 / 6000 ",
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "MORBI",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3400.0,
+    "DOUBLE": 3900.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "MORBI",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 3900.0,
+    "DOUBLE": 4400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "MORBI",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4400.0,
+    "DOUBLE": 4900.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "MUNDRA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3400.0,
+    "DOUBLE": 3900.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "MUNDRA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5400.0,
+    "DOUBLE": 6400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "MUNDRA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 10900.0,
+    "DOUBLE": 11900.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "NANI DEVATI",
+    "Hotel": "MYSA Zinc Journey by The Fern",
+    "ROOM CATEGORY": "Zuper DeluxZ Room",
+    "PLAN": "CP",
+    "SINGLE": " 8300 / 8300 ",
+    "DOUBLE": " 11300 / 11300 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "NANI DEVATI",
+    "Hotel": "Bavla Road, Nani Devati, Sanand\nRooms: 24",
+    "ROOM CATEGORY": "Zuper DeluxZ Golf-View Room",
+    "PLAN": "CP",
+    "SINGLE": " 9300 / 9300 ",
+    "DOUBLE": " 12800 / 12800 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "NANI DEVATI",
+    "Hotel": "Bavla Road, Nani Devati, Sanand\nRooms: 24",
+    "ROOM CATEGORY": "Zuper DeluxZ Golf-View Balcony Room",
+    "PLAN": "CP",
+    "SINGLE": " 15800 / 15800 ",
+    "DOUBLE": " 20800 / 20800 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "NANI DEVATI",
+    "Hotel": "Bavla Road, Nani Devati, Sanand\nRooms: 24",
+    "ROOM CATEGORY": "Zuper Premium Villa",
+    "PLAN": "CP",
+    "SINGLE": " 25800 / 25800 ",
+    "DOUBLE": " 30800 / 30800 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "POLO FOREST",
+    "Hotel": "The Fern Sattva Resort",
+    "ROOM CATEGORY": "Winter Green Cottage",
+    "PLAN": "CPAI",
+    "SINGLE": " 6000 / 6000",
+    "DOUBLE": " 7000 / 7000",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "POLO FOREST",
+    "Hotel": "The Fern Sattva Resort",
+    "ROOM CATEGORY": "Winter Green Premium Cottage",
+    "PLAN": "CPAI",
+    "SINGLE": " 6500 / 6500",
+    "DOUBLE": " 7500 / 7500",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "POLO FOREST",
+    "Hotel": "The Fern Sattva Resort",
+    "ROOM CATEGORY": "Fern Club Villa",
+    "PLAN": "CPAI",
+    "SINGLE": " 7500 / 7500",
+    "DOUBLE": " 8500 / 8500",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "PORBANDAR",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3800.0,
+    "DOUBLE": 4300.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PORBANDAR",
+    "Hotel": "Somnath Highway, Indira Nagar Porbandar\nRooms: 45",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4800.0,
+    "DOUBLE": 5300.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PORBANDAR",
+    "Hotel": "Somnath Highway, Indira Nagar Porbandar\nRooms: 45",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CP",
+    "SINGLE": 6800.0,
+    "DOUBLE": 7200.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "RAJKOT",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3600.0,
+    "DOUBLE": 4100.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "RAJKOT",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4100.0,
+    "DOUBLE": 4600.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "RAJKOT",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 7100.0,
+    "DOUBLE": 7100.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "RAJKOT",
+    "Hotel": "Iris Beacon",
+    "ROOM CATEGORY": "Superior Room",
+    "PLAN": "CP",
+    "SINGLE": 2700.0,
+    "DOUBLE": 3200.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "RAJKOT",
+    "Hotel": "Iris Beacon",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 3200.0,
+    "DOUBLE": 3700.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "RAJKOT",
+    "Hotel": "Iris Beacon",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 3700.0,
+    "DOUBLE": 4200.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SASAN GIR",
+    "Hotel": "The Fern Gir Forest Resort",
+    "ROOM CATEGORY": "Winter Green Cottage",
+    "PLAN": "CPAI",
+    "SINGLE": 12800.0,
+    "DOUBLE": 12800.0,
+    "EXTRA PERSON": 2000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SASAN GIR",
+    "Hotel": "Talala Road, Sasan Gir, Dist. Junagadh\nRooms: 44",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CPAI",
+    "SINGLE": 14800.0,
+    "DOUBLE": 14800.0,
+    "EXTRA PERSON": 2000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SASAN GIR",
+    "Hotel": "Talala Road, Sasan Gir, Dist. Junagadh\nRooms: 44",
+    "ROOM CATEGORY": "Fern Club Villa",
+    "PLAN": "CPAI",
+    "SINGLE": 15800.0,
+    "DOUBLE": 15800.0,
+    "EXTRA PERSON": 2000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SASAN GIR",
+    "Hotel": "Talala Road, Sasan Gir, Dist. Junagadh\nRooms: 44",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CPAI",
+    "SINGLE": 45900.0,
+    "DOUBLE": 45900.0,
+    "EXTRA PERSON": 2000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SOMNATH",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3600.0,
+    "DOUBLE": 4200.0,
+    "EXTRA PERSON": 850.0,
+    "MEALS": "L :  550   |   D :  550 "
+  },
+  {
+    "City": "SOMNATH",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4200.0,
+    "DOUBLE": 4700.0,
+    "EXTRA PERSON": 850.0,
+    "MEALS": "L :  550   |   D :  550 "
+  },
+  {
+    "City": "SOMNATH",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5200.0,
+    "DOUBLE": 5800.0,
+    "EXTRA PERSON": 850.0,
+    "MEALS": "L :  550   |   D :  550 "
+  },
+  {
+    "City": "SOMNATH",
+    "Hotel": "Central Beacon Hotel",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2600.0,
+    "DOUBLE": 3400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SOMNATH",
+    "Hotel": "Central Beacon Hotel",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 3600.0,
+    "DOUBLE": 4400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SOMNATH",
+    "Hotel": "Central Beacon Hotel",
+    "ROOM CATEGORY": "Executive Premium Room",
+    "PLAN": "CP",
+    "SINGLE": 4100.0,
+    "DOUBLE": 4900.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "VADODARA",
+    "Hotel": "The Fern",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3500.0,
+    "DOUBLE": 4300.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "VADODARA",
+    "Hotel": "The Fern",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": 4800.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "VADODARA",
+    "Hotel": "The Fern",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5600.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "VADODARA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 2700.0,
+    "DOUBLE": 3000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "VADODARA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 3000.0,
+    "DOUBLE": 3600.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "VADODARA",
+    "Hotel": "The Beacon Hotel",
+    "ROOM CATEGORY": "Superior Room",
+    "PLAN": "CP",
+    "SINGLE": 2100.0,
+    "DOUBLE": 2600.0,
+    "EXTRA PERSON": 800.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "VADODARA",
+    "Hotel": "The Beacon Hotel",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2400.0,
+    "DOUBLE": 2700.0,
+    "EXTRA PERSON": 800.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "VADODARA",
+    "Hotel": "The Beacon Hotel",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 2700.0,
+    "DOUBLE": 3200.0,
+    "EXTRA PERSON": 800.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Meluha The Fern, Powai",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 11750.0,
+    "DOUBLE": 12750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1500   |   D :  1700 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Meluha The Fern, Powai",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 13750.0,
+    "DOUBLE": 14750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1500   |   D :  1700 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Meluha The Fern, Powai",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 17750.0,
+    "DOUBLE": 18750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1500   |   D :  1700 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Meluha The Fern, Powai",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CP",
+    "SINGLE": 20750.0,
+    "DOUBLE": 21750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1500   |   D :  1700 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Meluha The Fern, Powai",
+    "ROOM CATEGORY": "Weekends (Fri-Sun) - Winter Green : Sgl  7500/Dbl  8000 + GST",
+    "PLAN": "CP",
+    "SINGLE": 20750.0,
+    "DOUBLE": 21750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1500   |   D :  1700 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Rodas Ecotel, Powai",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 8750.0,
+    "DOUBLE": 9750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1000   |   D :  1200 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Rodas Ecotel, Powai",
+    "ROOM CATEGORY": "Executive Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 9750.0,
+    "DOUBLE": 10750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1000   |   D :  1200 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Rodas Ecotel, Powai",
+    "ROOM CATEGORY": "Weekends (Fri-Sun) - Winter Green : Sgl  6500/Dbl  7000 + GST",
+    "PLAN": "CP",
+    "SINGLE": 9750.0,
+    "DOUBLE": 10750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1000   |   D :  1200 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "The Fern, Goregaon",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 8750.0,
+    "DOUBLE": 9750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  800   |   D :  1000 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "The Fern, Goregaon",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 9750.0,
+    "DOUBLE": 10750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  800   |   D :  1000 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "The Fern, Goregaon",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 10750.0,
+    "DOUBLE": 11750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  800   |   D :  1000 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "The Fern Residency, Chembur",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 8250.0,
+    "DOUBLE": 9250.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  800   |   D :  800 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "A, Hemu Kalani Marg, Next to Acres Club, Chembur, Mumbai",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 9250.0,
+    "DOUBLE": 10250.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  800   |   D :  800 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "The Fern Residency, Bhiwandi",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4100.0,
+    "DOUBLE": 4600.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Nashik Highway, Bhiwandi, Dist. Thane, Rooms: 79",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4600.0,
+    "DOUBLE": 5100.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Nashik Highway, Bhiwandi, Dist. Thane, Rooms: 79",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5600.0,
+    "DOUBLE": 6100.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Nashik Highway, Bhiwandi, Dist. Thane, Rooms: 79",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CP",
+    "SINGLE": 7200.0,
+    "DOUBLE": 7200.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "T2 Beacon Hotel, Andheri",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 4650.0,
+    "DOUBLE": 5150.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "T2 Beacon Hotel, Andheri",
+    "ROOM CATEGORY": "Suite",
+    "PLAN": "CP",
+    "SINGLE": 6150.0,
+    "DOUBLE": 6750.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Adiva Residency Beacon, Grant Road",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Apex Beacon Hotel, J.B.Nagar, Andheri",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  550   |   D :  550 "
+  },
+  {
+    "City": "MUMBAI",
+    "Hotel": "Apex Beacon Hotel, J.B.Nagar, Andheri",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 6500.0,
+    "DOUBLE": 7500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  550   |   D :  550 "
+  },
+  {
+    "City": "NAVI MUMBAI (TURBHE)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  700 "
+  },
+  {
+    "City": "NAVI MUMBAI (TURBHE)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 6000.0,
+    "DOUBLE": 6500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  700 "
+  },
+  {
+    "City": "NAVI MUMBAI (TURBHE)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 6500.0,
+    "DOUBLE": 7000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  700 "
+  },
+  {
+    "City": "NAVI MUMBAI (TURBHE)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 8500.0,
+    "DOUBLE": 8500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  700 "
+  },
+  {
+    "City": "AURANGABAD (CHHATRAPATI SAMBHAJI\nNAGAR)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4750.0,
+    "DOUBLE": 5250.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "AURANGABAD (CHHATRAPATI SAMBHAJI\nNAGAR)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5250.0,
+    "DOUBLE": 5750.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "AURANGABAD (CHHATRAPATI SAMBHAJI\nNAGAR)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 6250.0,
+    "DOUBLE": 6750.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "AURANGABAD (CHHATRAPATI SAMBHAJI\nNAGAR)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": ".",
+    "PLAN": "CP",
+    "SINGLE": 6250.0,
+    "DOUBLE": 6750.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "DAPOLI (RATNAGIRI)",
+    "Hotel": "The Fern Samali Resort",
+    "ROOM CATEGORY": "Magnolia Cottage",
+    "PLAN": "CP",
+    "SINGLE": " 6000 / 6000 ",
+    "DOUBLE": " 8000 / 8000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "DAPOLI (RATNAGIRI)",
+    "Hotel": "The Fern Samali Resort",
+    "ROOM CATEGORY": "Aster Room",
+    "PLAN": "CP",
+    "SINGLE": " 7000 / 7000 ",
+    "DOUBLE": " 9000 / 9000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "DAPOLI (RATNAGIRI)",
+    "Hotel": "The Fern Samali Resort",
+    "ROOM CATEGORY": "Tulip Room",
+    "PLAN": "CP",
+    "SINGLE": " 7500 / 7500 ",
+    "DOUBLE": " 9500 / 9500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "DAPOLI (RATNAGIRI)",
+    "Hotel": "The Fern Samali Resort",
+    "ROOM CATEGORY": "Lillian Cottage",
+    "PLAN": "CP",
+    "SINGLE": " 8500 / 8500 ",
+    "DOUBLE": " 10500 / 10500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "GANPATIPULE",
+    "Hotel": "Blue Ocean The Fern Resort & Spa",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 5500 / 5500 ",
+    "DOUBLE": " 7000 / 7000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "GANPATIPULE",
+    "Hotel": "Blue Ocean The Fern Resort & Spa",
+    "ROOM CATEGORY": "Fern Club Villa",
+    "PLAN": "CP",
+    "SINGLE": " 6500 / 6500 ",
+    "DOUBLE": " 8500 / 8500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "GANPATIPULE",
+    "Hotel": "Blue Ocean The Fern Resort & Spa",
+    "ROOM CATEGORY": "Fern Club Premium",
+    "PLAN": "CP",
+    "SINGLE": " 7500 / 7500 ",
+    "DOUBLE": " 10000 / 10000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "GANPATIPULE",
+    "Hotel": "Blue Ocean The Fern Resort & Spa",
+    "ROOM CATEGORY": "Fern Club Sea View Villa",
+    "PLAN": "CP",
+    "SINGLE": " 10500 / 10500 ",
+    "DOUBLE": " 12500 / 12500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "GANPATIPULE",
+    "Hotel": "Blue Ocean The Fern Resort & Spa",
+    "ROOM CATEGORY": "Fern Club Sea View Tent",
+    "PLAN": "CP",
+    "SINGLE": " 13500 / 13500 ",
+    "DOUBLE": " 15000 / 15000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "GANPATIPULE",
+    "Hotel": "Blue Ocean The Fern Resort & Spa",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": " 14500 / 14500 ",
+    "DOUBLE": " 16000 / 16000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "HATGAD",
+    "Hotel": "SAPUTARA - The Fern Heavens on the Hills",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 8500 / 8500 ",
+    "DOUBLE": " 11000 / 11000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "HATGAD",
+    "Hotel": "SAPUTARA - The Fern Heavens on the Hills",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": " 9500 / 9500 ",
+    "DOUBLE": " 12000 / 12000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "HATGAD",
+    "Hotel": "SAPUTARA - The Fern Heavens on the Hills",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": " 10500 / 10500 ",
+    "DOUBLE": " 13000 / 13000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "HATGAD",
+    "Hotel": "SAPUTARA - The Fern Heavens on the Hills",
+    "ROOM CATEGORY": "Fern Club Premium",
+    "PLAN": "CP",
+    "SINGLE": " 11500 / 11500 ",
+    "DOUBLE": " 14000 / 14000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "HATGAD",
+    "Hotel": "SAPUTARA - The Fern Heavens on the Hills",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": " 14500 / 14500 ",
+    "DOUBLE": " 17000 / 17000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  700   |   D :  700 "
+  },
+  {
+    "City": "ICHALKARANJI",
+    "Hotel": "Grand Fortune Beacon",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2600.0,
+    "DOUBLE": 3100.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "ICHALKARANJI",
+    "Hotel": "Grand Fortune Beacon",
+    "ROOM CATEGORY": "Suite",
+    "PLAN": "CP",
+    "SINGLE": 4200.0,
+    "DOUBLE": 4700.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "ICHALKARANJI",
+    "Hotel": "Grand Fortune Beacon",
+    "ROOM CATEGORY": "Executive Suite",
+    "PLAN": "CP",
+    "SINGLE": 5200.0,
+    "DOUBLE": 5700.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "ICHALKARANJI",
+    "Hotel": "Grand Fortune Beacon",
+    "ROOM CATEGORY": ".",
+    "PLAN": "CP",
+    "SINGLE": 5200.0,
+    "DOUBLE": 5700.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "IGATPURI",
+    "Hotel": "Rakabi The Fern, Igatpuri",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 5500 / 5500 ",
+    "DOUBLE": " 7000 / 7000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  850 "
+  },
+  {
+    "City": "IGATPURI",
+    "Hotel": "3, Opp. Indian Oil Petrol Station, Talegaon, Igatpuri\nRooms: 76",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": " 6500 / 6500 ",
+    "DOUBLE": " 8000 / 8000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  850 "
+  },
+  {
+    "City": "IGATPURI",
+    "Hotel": "3, Opp. Indian Oil Petrol Station, Talegaon, Igatpuri\nRooms: 76",
+    "ROOM CATEGORY": "Fern Club Premium",
+    "PLAN": "CP",
+    "SINGLE": " 7500 / 7500 ",
+    "DOUBLE": " 9000 / 9000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  850 "
+  },
+  {
+    "City": "IGATPURI",
+    "Hotel": "3, Opp. Indian Oil Petrol Station, Talegaon, Igatpuri\nRooms: 76",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": " 10000 / 10000 ",
+    "DOUBLE": " 11750 / 11750 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  850 "
+  },
+  {
+    "City": "KARAD",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3250.0,
+    "DOUBLE": 3750.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KARAD",
+    "Hotel": "Bangalore Highway, Karad",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3250.0,
+    "DOUBLE": 3750.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KARJAT",
+    "Hotel": "Villament Zinc Journey by The Fern",
+    "ROOM CATEGORY": "DeluxZ Room",
+    "PLAN": "CP",
+    "SINGLE": " 5500 / 5500 ",
+    "DOUBLE": " 6500 / 6500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "KARJAT",
+    "Hotel": "Pune Highway, Wavandhal, Khalapur, Karjat\nRooms: 20",
+    "ROOM CATEGORY": "Zuper DeluxZ Room",
+    "PLAN": "CP",
+    "SINGLE": " 6500 / 6500 ",
+    "DOUBLE": " 7500 / 7500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "KARJAT",
+    "Hotel": "Pune Highway, Wavandhal, Khalapur, Karjat\nRooms: 20",
+    "ROOM CATEGORY": "SuiteZ",
+    "PLAN": "CP",
+    "SINGLE": " 10000 / 10000 ",
+    "DOUBLE": " 12500 / 12500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "KOLHAPUR",
+    "Hotel": "The Fern",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": "Rates available on request",
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "KOLHAPUR",
+    "Hotel": "Ward, Opp Shahu Market Yard, Kolhapur\nRooms: 93",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4750.0,
+    "DOUBLE": 5250.0,
+    "EXTRA PERSON": 1250.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KOLHAPUR",
+    "Hotel": "Ward, Opp Shahu Market Yard, Kolhapur\nRooms: 93",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5750.0,
+    "DOUBLE": 6250.0,
+    "EXTRA PERSON": 1250.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KOLHAPUR",
+    "Hotel": "Ward, Opp Shahu Market Yard, Kolhapur\nRooms: 93",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 10000.0,
+    "DOUBLE": 10500.0,
+    "EXTRA PERSON": 1250.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KOLHAPUR",
+    "Hotel": "Ward, Opp Shahu Market Yard, Kolhapur\nRooms: 93",
+    "ROOM CATEGORY": "Winter Green rooms can only accommodate single occupancy",
+    "PLAN": "CP",
+    "SINGLE": 10000.0,
+    "DOUBLE": 10500.0,
+    "EXTRA PERSON": 1250.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "LONAVALA",
+    "Hotel": "The Fern",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 7500 / 7500 ",
+    "DOUBLE": " 9500 / 9500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1000   |   D :  1000 "
+  },
+  {
+    "City": "LONAVALA",
+    "Hotel": "The Fern",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": " 9000 / 9000 ",
+    "DOUBLE": " 11000 / 11000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1000   |   D :  1000 "
+  },
+  {
+    "City": "LONAVALA",
+    "Hotel": "The Fern",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": " 12000 / 12000 ",
+    "DOUBLE": " 14000 / 14000 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1000   |   D :  1000 "
+  },
+  {
+    "City": "LONAVALA",
+    "Hotel": "Arova Woods Zinc Journey by The Fern",
+    "ROOM CATEGORY": "DeluxZ Room",
+    "PLAN": "CP",
+    "SINGLE": " 5250 / 5250 ",
+    "DOUBLE": " 6250 / 6250 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "LONAVALA",
+    "Hotel": "Arova Woods Zinc Journey by The Fern",
+    "ROOM CATEGORY": "Zuper DeluxZ Room",
+    "PLAN": "CP",
+    "SINGLE": " 5750 / 5750 ",
+    "DOUBLE": " 6750 / 6750 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "LONAVALA",
+    "Hotel": "Pune Highway, Near HP Petrol\nPump,\nRooms: 23",
+    "ROOM CATEGORY": "Zuper Premium Room",
+    "PLAN": "CP",
+    "SINGLE": " 6250 / 6250 ",
+    "DOUBLE": " 7250 / 7250 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "LONAVALA",
+    "Hotel": "Pune Highway, Near HP Petrol\nPump,\nRooms: 23",
+    "ROOM CATEGORY": "SuiteZ",
+    "PLAN": "CP",
+    "SINGLE": " 10000 / 10000 ",
+    "DOUBLE": " 12000 / 12000 ",
+    "EXTRA PERSON": 15000.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "LONAVALA",
+    "Hotel": "Viola Beacon Resort",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": " 4500 / 4500 ",
+    "DOUBLE": " 5500 / 5500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "LONAVALA",
+    "Hotel": "Pune Highway, Lonavala",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": " 5500 / 5500 ",
+    "DOUBLE": " 6500 / 6500 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "MAHABALESHWAR",
+    "Hotel": "Valley View Beacon Resort",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": " 5250 / 5250 ",
+    "DOUBLE": " 6250 / 6250 ",
+    "EXTRA PERSON": 1750.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "MAHABALESHWAR",
+    "Hotel": "Valley View Beacon Resort",
+    "ROOM CATEGORY": "Premium Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": " 6250 / 6250 ",
+    "DOUBLE": " 7250 / 7250 ",
+    "EXTRA PERSON": 1750.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "MAHABALESHWAR",
+    "Hotel": "Valley View Beacon Resort",
+    "ROOM CATEGORY": "Executive Valley View",
+    "PLAN": "CP",
+    "SINGLE": " 7250 / 7250 ",
+    "DOUBLE": " 8250 / 8250 ",
+    "EXTRA PERSON": 1750.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "PALGHAR",
+    "Hotel": "The Fern Shelter Resort",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": " 5200 / 5200 ",
+    "DOUBLE": " 5700 / 5700 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "PALGHAR",
+    "Hotel": "48, Mumbai-Ahmedabad Highway, Dhekale, Dist. Palghar\nRooms: 81",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": " 5700 / 5700 ",
+    "DOUBLE": " 6200 / 6200 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "PALGHAR",
+    "Hotel": "48, Mumbai-Ahmedabad Highway, Dhekale, Dist. Palghar\nRooms: 81",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": " 6700 / 6700 ",
+    "DOUBLE": " 7200 / 7200 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "PALGHAR",
+    "Hotel": "48, Mumbai-Ahmedabad Highway, Dhekale, Dist. Palghar\nRooms: 81",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": " 8700 / 8700 ",
+    "DOUBLE": " 9700 / 9700 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "PALGHAR",
+    "Hotel": "48, Mumbai-Ahmedabad Highway, Dhekale, Dist. Palghar\nRooms: 81",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CP",
+    "SINGLE": " 11700 / 11700 ",
+    "DOUBLE": " 12700 / 12700 ",
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "PANCHGANI",
+    "Hotel": "Orient Beacon Resort",
+    "ROOM CATEGORY": "Superior Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": " 4250 / 4250 ",
+    "DOUBLE": " 5250 / 5250 ",
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PANCHGANI",
+    "Hotel": "Orient Beacon Resort",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": " 5250 / 5250 ",
+    "DOUBLE": " 6250 / 6250 ",
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PARBHANI",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3000.0,
+    "DOUBLE": 3500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PARBHANI",
+    "Hotel": "12, MIDC Basmat Road, Parbhani\nRooms: 35",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3000.0,
+    "DOUBLE": 3500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "Amanora The Fern",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 5850.0,
+    "DOUBLE": 6350.0,
+    "EXTRA PERSON": 1250.0,
+    "MEALS": "L :  850   |   D :  950 "
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "Amanora The Fern",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 6850.0,
+    "DOUBLE": 7350.0,
+    "EXTRA PERSON": 1250.0,
+    "MEALS": "L :  850   |   D :  950 "
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "Amanora The Fern",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 10000.0,
+    "DOUBLE": 11000.0,
+    "EXTRA PERSON": 1250.0,
+    "MEALS": "L :  850   |   D :  950 "
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "E-Square The Fern",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 5250.0,
+    "DOUBLE": 5750.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  750   |   D :  850 "
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "E-Square The Fern",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 5750.0,
+    "DOUBLE": 6250.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  750   |   D :  850 "
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "E-Square The Fern",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 6500.0,
+    "DOUBLE": 7000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  750   |   D :  850 "
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "E-Square The Fern",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 10250.0,
+    "DOUBLE": 10750.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  750   |   D :  850 "
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "The Fern Residency Woodland",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3500.0,
+    "DOUBLE": 4000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "The Fern Residency Woodland",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": 4500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "The Fern Residency Woodland",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "The Fern Residency Woodland",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 5800.0,
+    "DOUBLE": 6300.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "The Fern Residency Woodland",
+    "ROOM CATEGORY": ".",
+    "PLAN": "CP",
+    "SINGLE": 5800.0,
+    "DOUBLE": 6300.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "The Fern Residency MIDC",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": 4500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "Bhosari, Pimpri-Chinchwad, Pune\nRooms: 40",
+    "ROOM CATEGORY": ".",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": 4500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "The Fern Residency Vadgaon - Talegaon",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4250.0,
+    "DOUBLE": 4750.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "The Fern Residency Vadgaon - Talegaon",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 7500.0,
+    "DOUBLE": 8500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  650   |   D :  750 "
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "BEACON NIBM",
+    "ROOM CATEGORY": "Superior Room",
+    "PLAN": "CP",
+    "SINGLE": 4000.0,
+    "DOUBLE": 4500.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "BEACON NIBM",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 4500.0,
+    "DOUBLE": 5000.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "BEACON NIBM",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5500.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "BEACON NIBM",
+    "ROOM CATEGORY": "Grand Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "PUNE",
+    "Hotel": "BEACON NIBM",
+    "ROOM CATEGORY": "Contact your Sales Account Manager for any Extra Bed requirements.",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "SATARA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3750.0,
+    "DOUBLE": 4250.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SATARA",
+    "Hotel": "Bangalore Highway, Satara\nRooms: 60",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4750.0,
+    "DOUBLE": 5250.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SATARA",
+    "Hotel": "Bangalore Highway, Satara\nRooms: 60",
+    "ROOM CATEGORY": ".",
+    "PLAN": "CP",
+    "SINGLE": 4750.0,
+    "DOUBLE": 5250.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Kadamba Hotel & Spa, Kadamba",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 5650.0,
+    "DOUBLE": 6150.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Kadamba Hotel & Spa, Kadamba",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 6150.0,
+    "DOUBLE": 6650.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Kadamba Hotel & Spa, Kadamba",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 7150.0,
+    "DOUBLE": 7750.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  750   |   D :  750 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Kesarval Hotel & Spa, Verna",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4500.0,
+    "DOUBLE": 5000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Kesarval Hotel & Spa, Verna",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Kesarval Hotel & Spa, Verna",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 6500.0,
+    "DOUBLE": 7000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Kesarval Hotel & Spa, Verna",
+    "ROOM CATEGORY": "Fern Club Premium",
+    "PLAN": "CP",
+    "SINGLE": 7000.0,
+    "DOUBLE": 7500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Kesarval Hotel & Spa, Verna",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 9500.0,
+    "DOUBLE": 10000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Habitat, Candolim",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 6000.0,
+    "DOUBLE": 6500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  700 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Habitat, Candolim",
+    "ROOM CATEGORY": "Winter Green Studio Suite",
+    "PLAN": "CP",
+    "SINGLE": 6500.0,
+    "DOUBLE": 7000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  700 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Habitat, Candolim",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 11500.0,
+    "DOUBLE": 12500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  700 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Habitat, Candolim",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CP",
+    "SINGLE": 17000.0,
+    "DOUBLE": 17000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  700 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Habitat, Candolim",
+    "ROOM CATEGORY": "Fern Club Premium Suite",
+    "PLAN": "CP",
+    "SINGLE": 22000.0,
+    "DOUBLE": 22000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  650   |   D :  700 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Residency, Calangute",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Residency, Calangute",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 5990.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Residency, Calangute",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 7150.0,
+    "DOUBLE": 7150.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "GOA",
+    "Hotel": "The Fern Residency, Miramar",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3800.0,
+    "DOUBLE": 4200.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "GOA",
+    "Hotel": "Ilhas, Miramar, Goa\nRooms: 26",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4200.0,
+    "DOUBLE": 4700.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "GOA",
+    "Hotel": "La-Paz Gardens Beacon, Vasco da Gama",
+    "ROOM CATEGORY": "Standard Room",
+    "PLAN": "CP",
+    "SINGLE": 3700.0,
+    "DOUBLE": 4200.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "La-Paz Gardens Beacon, Vasco da Gama",
+    "ROOM CATEGORY": "Executive Premium Room",
+    "PLAN": "CP",
+    "SINGLE": 4700.0,
+    "DOUBLE": 5200.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "GOA",
+    "Hotel": "La-Paz Gardens Beacon, Vasco da Gama",
+    "ROOM CATEGORY": "Executive Suite",
+    "PLAN": "CP",
+    "SINGLE": 5700.0,
+    "DOUBLE": 6200.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  550   |   D :  600 "
+  },
+  {
+    "City": "BELAGAVI",
+    "Hotel": "UK27 The Fern",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4600.0,
+    "DOUBLE": 5100.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "BELAGAVI",
+    "Hotel": "UK27 The Fern",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 5100.0,
+    "DOUBLE": 5600.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "BELAGAVI",
+    "Hotel": "UK27 The Fern",
+    "ROOM CATEGORY": "Fern Club Studio",
+    "PLAN": "CP",
+    "SINGLE": 6100.0,
+    "DOUBLE": 6100.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "BENGALURU",
+    "Hotel": "The Fern Residency Yeshwanthpur",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4400.0,
+    "DOUBLE": 5000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "BENGALURU",
+    "Hotel": "The Fern Residency Yeshwanthpur",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6100.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "BENGALURU",
+    "Hotel": "The Fern Residency Yeshwanthpur",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 6600.0,
+    "DOUBLE": 6600.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "HUBBALLI (HUBLI)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3400.0,
+    "DOUBLE": 3900.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "HUBBALLI (HUBLI)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 3900.0,
+    "DOUBLE": 4400.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "HUBBALLI (HUBLI)",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 6000.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "KAKINADA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 2950.0,
+    "DOUBLE": 3450.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KAKINADA",
+    "Hotel": "15-32, Nagamallithota, Kakinada\nRooms: 55",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4200.0,
+    "DOUBLE": 4500.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "KOCHI",
+    "Hotel": "The Fern - An Ecotel Hotel",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 5500.0,
+    "DOUBLE": 6000.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1250   |   D :  1500 "
+  },
+  {
+    "City": "KOCHI",
+    "Hotel": "The Fern - An Ecotel Hotel",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 6000.0,
+    "DOUBLE": 6500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1250   |   D :  1500 "
+  },
+  {
+    "City": "KOCHI",
+    "Hotel": "The Fern - An Ecotel Hotel",
+    "ROOM CATEGORY": "Fern Club Suite",
+    "PLAN": "CP",
+    "SINGLE": 10500.0,
+    "DOUBLE": 10500.0,
+    "EXTRA PERSON": 1500.0,
+    "MEALS": "L :  1250   |   D :  1500 "
+  },
+  {
+    "City": "SHIVAMOGGA",
+    "Hotel": "Harsha The Fern",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3400.0,
+    "DOUBLE": 3900.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SHIVAMOGGA",
+    "Hotel": "Harsha The Fern",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 3900.0,
+    "DOUBLE": 4400.0,
+    "EXTRA PERSON": 1200.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "SHIVAMOGGA",
+    "Hotel": "Harsha The Fern",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 6400.0,
+    "DOUBLE": 6400.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "VIJAYAPURA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3250.0,
+    "DOUBLE": 3750.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "VIJAYAPURA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 4250.0,
+    "DOUBLE": 4750.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "VIJAYAPURA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Hazel Suite",
+    "PLAN": "CP",
+    "SINGLE": 6550.0,
+    "DOUBLE": 6550.0,
+    "EXTRA PERSON": "-",
+    "MEALS": "-"
+  },
+  {
+    "City": "VISAKHAPATNAM",
+    "Hotel": "The Beacon Hotel",
+    "ROOM CATEGORY": "Deluxe Room",
+    "PLAN": "CP",
+    "SINGLE": 2650.0,
+    "DOUBLE": 3150.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "VISAKHAPATNAM",
+    "Hotel": "The Beacon Hotel",
+    "ROOM CATEGORY": "Executive Room",
+    "PLAN": "CP",
+    "SINGLE": 2850.0,
+    "DOUBLE": 3350.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "VISAKHAPATNAM",
+    "Hotel": "The Beacon Hotel",
+    "ROOM CATEGORY": "Suite",
+    "PLAN": "CP",
+    "SINGLE": 5000.0,
+    "DOUBLE": 5000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "ASANSOL",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3600.0,
+    "DOUBLE": 4100.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "ASANSOL",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4900.0,
+    "DOUBLE": 5400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "-"
+  },
+  {
+    "City": "GANGTOK",
+    "Hotel": "The Fern Denzong Hotel & Spa",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 4500.0,
+    "DOUBLE": 5000.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "GANGTOK",
+    "Hotel": "The Fern Denzong Hotel & Spa",
+    "ROOM CATEGORY": "Winter Green Premium",
+    "PLAN": "CP",
+    "SINGLE": 5200.0,
+    "DOUBLE": 5700.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "GANGTOK",
+    "Hotel": "The Fern Denzong Hotel & Spa",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 7400.0,
+    "DOUBLE": 7400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "GANGTOK",
+    "Hotel": "The Fern Denzong Hotel & Spa",
+    "ROOM CATEGORY": "Peak Period Supplement :  2000 + taxes extra on the above rates during Durga Pooja & Diwali Period",
+    "PLAN": "CP",
+    "SINGLE": 7400.0,
+    "DOUBLE": 7400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  650   |   D :  650 "
+  },
+  {
+    "City": "KOLKATA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Winter Green Room",
+    "PLAN": "CP",
+    "SINGLE": 3900.0,
+    "DOUBLE": 4400.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  600   |   D :  600 "
+  },
+  {
+    "City": "KOLKATA",
+    "Hotel": "The Fern Residency",
+    "ROOM CATEGORY": "Fern Club Room",
+    "PLAN": "CP",
+    "SINGLE": 4400.0,
+    "DOUBLE": 4900.0,
+    "EXTRA PERSON": 1000.0,
+    "MEALS": "L :  600   |   D :  600 "
+  }
+]
