@@ -1,67 +1,66 @@
 body {
-  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   background: #f4f6f9;
-  margin: 0;
-  padding: 0;
 }
 
 .container {
-  max-width: 900px;
+  width: 430px;
   margin: 40px auto;
-  background: #ffffff;
-  padding: 30px;
+  background: #fff;
+  padding: 25px;
   border-radius: 10px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
 h2 {
-  margin-top: 0;
-  color: #1f2937;
+  text-align: center;
+  color: #003366;
 }
 
-.row {
-  display: flex;
-  gap: 15px;
-  margin-bottom: 15px;
-  flex-wrap: wrap;
+.form-group {
+  margin-bottom: 14px;
 }
 
-select, input {
-  flex: 1;
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #d1d5db;
-  font-size: 14px;
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
 }
 
-select:focus, input:focus {
-  outline: none;
-  border-color: #2563eb;
+select, input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 button {
-  background: #2563eb;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #003366;
   color: #fff;
   border: none;
-  padding: 12px 18px;
-  border-radius: 6px;
-  font-size: 14px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-button.secondary {
-  background: #059669;
+button:hover {
+  background: #00509e;
 }
 
-button:hover {
-  opacity: 0.9;
+.pdf-btn {
+  background: #28a745;
+}
+
+.pdf-btn:hover {
+  background: #1e7e34;
 }
 
 .result-box {
-  margin-top: 20px;
-  padding: 15px;
-  background: #f0fdf4;
-  border-left: 5px solid #22c55e;
-  font-size: 18px;
-  font-weight: bold;
+  margin-top: 15px;
+  padding: 14px;
+  background: #eef5ff;
+  border-radius: 6px;
+  font-size: 14px;
 }
