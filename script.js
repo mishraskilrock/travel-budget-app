@@ -91,12 +91,21 @@ function exportPDF() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
 
-  doc.text("Travel Budget Summary", 10, 10);
-  doc.text(`City: ${city.value}`, 10, 20);
-  doc.text(`Hotel: ${hotel.value}`, 10, 30);
-  doc.text(`Room: ${room.value}`, 10, 40);
-  doc.text(`Plan: ${plan.value}`, 10, 50);
-  doc.text(result.innerText, 10, 60);
+  doc.setFontSize(16);
+  doc.text("Travel Budget Summary", 10, 15);
+
+  doc.setFontSize(11);
+  doc.text(`City: ${city.value}`, 10, 30);
+  doc.text(`Hotel: ${hotel.value}`, 10, 38);
+  doc.text(`Room Category: ${room.value}`, 10, 46);
+  doc.text(`Plan: ${plan.value}`, 10, 54);
+
+  doc.text(`Single Rooms: ${single.value || 0}`, 10, 70);
+  doc.text(`Double Rooms: ${double.value || 0}`, 10, 78);
+  doc.text(`Extra Persons: ${extra.value || 0}`, 10, 86);
+
+  doc.setFontSize(13);
+  doc.text(result.innerText, 10, 105);
 
   doc.save("Travel_Budget.pdf");
 }
