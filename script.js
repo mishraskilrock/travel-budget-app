@@ -1,111 +1,101 @@
-let excelData = [];
+let data = [];
 
-// Load Excel
-document.getElementById("fileInput").addEventListener("change", function (e) {
-  const reader = new FileReader();
-  reader.onload = function (e) {
-    const workbook = XLSX.read(e.target.result, { type: "binary" });
-    const sheet = workbook.Sheets[workbook.SheetNames[0]];
-
-    excelData = XLSX.utils.sheet_to_json(sheet, { defval: "" });
-
+fetch("rates.json")
+  .then(res => res.json())
+  .then(json => {
+    data = json;
     populateCities();
-  };
-  reader.readAsBinaryString(e.target.files[0]);
-});
+  });
 
-// Utility to get unique values
-function uniqueValues(column, filterFn) {
-  return [...new Set(excelData.filter(filterFn).map(r => r[column]).filter(Boolean))];
-}
-
-// Populate City
 function populateCities() {
   const city = document.getElementById("city");
-  city.innerHTML = '<option value="">Select City</option>' +
-    uniqueValues("City", () => true)
-      .map(v => `<option>${v}</option>`)
-      .join("");
-
-  city.onchange = populateHotels;
+  city.innerHTML = `<option value="">Select City</option>`;
+  [...new Set(data.map(d => d.City))].forEach(c => {
+    city.innerHTML += `<option>${c}</option>`;
+  });
 }
 
-// Populate Hotel
 function populateHotels() {
-  const cityVal = city.value;
-  hotel.innerHTML = '<option value="">Select Hotel</option>' +
-    uniqueValues("Hotel", r => r.City === cityVal)
-      .map(v => `<option>${v}</option>`)
-      .join("");
+  const city = document.getElementById("city").value;
+  const hotel = document.getElementById("hotel");
+  hotel.innerHTML = `<option value="">Select Hotel</option>`;
+  document.getElementById("room").innerHTML = `<option value="">Select Room</option>`;
+  document.getElementById("plan").innerHTML = `<option value="">Select Plan</option>`;
 
-  room.innerHTML = plan.innerHTML = '<option>Select</option>';
-  hotel.onchange = populateRooms;
+  [...new Set(data.filter(d => d.City === city).map(d => d.Hotel))]
+    .forEach(h => hotel.innerHTML += `<option>${h}</option>`);
 }
 
-// Populate Room
 function populateRooms() {
-  room.innerHTML = '<option value="">Select Room</option>' +
-    uniqueValues("ROOM CATEGORY", r =>
-      r.City === city.value &&
-      r.Hotel === hotel.value
-    ).map(v => `<option>${v}</option>`).join("");
+  const city = city.value;
+  const hotel = document.getElementById("hotel").value;
+  const room = document.getElementById("room");
+  room.innerHTML = `<option value="">Select Room</option>`;
+  document.getElementById("plan").innerHTML = `<option value="">Select Plan</option>`;
 
-  plan.innerHTML = '<option>Select Plan</option>';
-  room.onchange = populatePlans;
+  [...new Set(
+    data.filter(d => d.City === city && d.Hotel === hotel)
+        .map(d => d["ROOM CATEGORY"])
+  )].forEach(r => room.innerHTML += `<option>${r}</option>`);
 }
 
-// Populate Plan
 function populatePlans() {
-  plan.innerHTML = '<option value="">Select Plan</option>' +
-    uniqueValues("PLAN", r =>
-      r.City === city.value &&
-      r.Hotel === hotel.value &&
-      r["ROOM CATEGORY"] === room.value
-    ).map(v => `<option>${v}</option>`).join("");
+  const cityVal = city.value;
+  const hotelVal = hotel.value;
+  const roomVal = room.value;
+  const plan = document.getElementById("plan");
+  plan.innerHTML = `<option value="">Select Plan</option>`;
+
+  [...new Set(
+    data.filter(d =>
+      d.City === cityVal &&
+      d.Hotel === hotelVal &&
+      d["ROOM CATEGORY"] === roomVal
+    ).map(d => d.PLAN)
+  )].forEach(p => plan.innerHTML += `<option>${p}</option>`);
 }
 
-// Calculate Budget
 function calculate() {
-  const row = excelData.find(r =>
-    r.City === city.value &&
-    r.Hotel === hotel.value &&
-    r["ROOM CATEGORY"] === room.value &&
-    r.PLAN === plan.value
-  );
+  const cityVal = city.value;
+  const hotelVal = hotel.value;
+  const roomVal = room.value;
+  const planVal = plan.value;
+  const start = new Date(startDate.value);
+  const end = new Date(endDate.value);
 
-  if (!row) {
-    result.innerText = "❌ No matching data found";
+  if (!startDate.value || !endDate.value || end <= start) {
+    alert("Please select valid dates");
     return;
   }
 
-  const total =
-    (Number(single.value) || 0) * Number(row.SINGLE) +
-    (Number(double.value) || 0) * Number(row.DOUBLE) +
-    (Number(extra.value) || 0) * Number(row["EXTRA PERSON"]);
+  const nights = Math.ceil((end - start) / (1000 * 60 * 60 * 24));
 
-  result.innerText = `Total Budget: ₹${total}`;
+  const r = data.find(d =>
+    d.City === cityVal &&
+    d.Hotel === hotelVal &&
+    d["ROOM CATEGORY"] === roomVal &&
+    d.PLAN === planVal
+  );
+
+  const perNight = r.DOUBLE + (2 * r["EXTRA PERSON"]);
+  const total = perNight * nights;
+
+  document.getElementById("result").innerHTML = `
+    <h3>Travel Budget Summary</h3>
+    <p><b>City:</b> ${r.City}</p>
+    <p><b>Hotel:</b> ${r.Hotel}</p>
+    <p><b>Room:</b> ${r["ROOM CATEGORY"]}</p>
+    <p><b>Plan:</b> ${r.PLAN}</p>
+    <p><b>Total Nights:</b> ${nights}</p>
+    <p><b>Per Night Cost:</b> ₹${perNight}</p>
+    <p><b>Total Budget:</b> <b>₹${total}</b></p>
+  `;
 }
 
-// Export PDF
-function exportPDF() {
+function downloadPDF() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
-
-  doc.setFontSize(16);
-  doc.text("Travel Budget Summary", 10, 15);
-
-  doc.setFontSize(11);
-  doc.text(`City: ${city.value}`, 10, 30);
-  doc.text(`Hotel: ${hotel.value}`, 10, 38);
-  doc.text(`Room Category: ${room.value}`, 10, 46);
-  doc.text(`Plan: ${plan.value}`, 10, 54);
-
-  doc.text(`Single Rooms: ${single.value || 0}`, 10, 70);
-  doc.text(`Double Rooms: ${double.value || 0}`, 10, 78);
-  doc.text(`Extra Persons: ${extra.value || 0}`, 10, 86);
-
-  doc.setFontSize(13);
-  doc.text(result.innerText, 10, 105);
-
+  doc.text("Travel Budget Summary", 20, 20);
+  doc.text(document.getElementById("result").innerText, 20, 30);
   doc.save("Travel_Budget.pdf");
 }
