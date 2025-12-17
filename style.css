@@ -1,16 +1,67 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #ffffff;
   padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+h2 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
 }
 
 select, input {
-  padding: 8px;
-  margin: 5px;
-  width: 200px;
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+select:focus, input:focus {
+  outline: none;
+  border-color: #2563eb;
 }
 
 button {
-  padding: 10px 15px;
-  margin: 5px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-size: 14px;
   cursor: pointer;
+}
+
+button.secondary {
+  background: #059669;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f0fdf4;
+  border-left: 5px solid #22c55e;
+  font-size: 18px;
+  font-weight: bold;
 }
