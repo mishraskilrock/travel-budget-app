@@ -3,51 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <title>Travel Budget Calculator</title>
-
-  <!-- SheetJS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-
-  <!-- jsPDF -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="container">
-
   <h2>Travel Budget Calculator</h2>
 
-  <input type="file" id="fileInput" accept=".xlsx">
-
-  <div class="row">
-    <select id="city"></select>
-    <select id="hotel"></select>
+  <div class="form-group">
+    <label>City</label>
+    <select id="city" onchange="populateHotels()"></select>
   </div>
 
-  <div class="row">
-    <select id="room"></select>
+  <div class="form-group">
+    <label>Hotel</label>
+    <select id="hotel" onchange="populateRooms()"></select>
+  </div>
+
+  <div class="form-group">
+    <label>Room Category</label>
+    <select id="room" onchange="populatePlans()"></select>
+  </div>
+
+  <div class="form-group">
+    <label>Plan</label>
     <select id="plan"></select>
   </div>
 
-  <div class="row">
-    <input type="number" id="single" placeholder="Single Rooms">
-    <input type="number" id="double" placeholder="Double Rooms">
-    <input type="number" id="extra" placeholder="Extra Persons">
+  <div class="form-group">
+    <label>Start Date</label>
+    <input type="date" id="startDate">
   </div>
 
-  <div class="row">
-    <button onclick="calculate()">Calculate Budget</button>
-    <button class="secondary" onclick="exportPDF()">Export PDF</button>
+  <div class="form-group">
+    <label>End Date</label>
+    <input type="date" id="endDate">
   </div>
+
+  <button onclick="calculate()">Calculate Budget</button>
+  <button class="pdf-btn" onclick="downloadPDF()">Download PDF</button>
 
   <div id="result" class="result-box"></div>
-
 </div>
 
-<!-- REQUIRED SCRIPTS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
