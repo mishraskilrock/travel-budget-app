@@ -27,17 +27,22 @@ function populateHotels() {
 }
 
 function populateRooms() {
-  const city = city.value;
-  const hotel = document.getElementById("hotel").value;
+  const cityVal = document.getElementById("city").value;
+  const hotelVal = document.getElementById("hotel").value;
   const room = document.getElementById("room");
+
   room.innerHTML = `<option value="">Select Room</option>`;
   document.getElementById("plan").innerHTML = `<option value="">Select Plan</option>`;
 
   [...new Set(
-    data.filter(d => d.City === city && d.Hotel === hotel)
-        .map(d => d["ROOM CATEGORY"])
-  )].forEach(r => room.innerHTML += `<option>${r}</option>`);
+    data
+      .filter(d => d.City === cityVal && d.Hotel === hotelVal)
+      .map(d => d["ROOM CATEGORY"])
+  )].forEach(r => {
+    room.innerHTML += `<option>${r}</option>`;
+  });
 }
+
 
 function populatePlans() {
   const cityVal = city.value;
@@ -99,3 +104,4 @@ function downloadPDF() {
   doc.text(document.getElementById("result").innerText, 20, 30);
   doc.save("Travel_Budget.pdf");
 }
+
