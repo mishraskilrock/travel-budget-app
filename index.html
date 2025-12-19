@@ -7,8 +7,8 @@
 </head>
 
 <body>
-
 <div class="container">
+
   <h2>Travel Budget Calculator</h2>
 
   <div class="form-group">
@@ -31,6 +31,21 @@
     <select id="plan"></select>
   </div>
 
+  <div class="form-row">
+    <div>
+      <label>Single Rooms</label>
+      <input type="number" id="singleCount" min="0" value="0">
+    </div>
+    <div>
+      <label>Double Rooms</label>
+      <input type="number" id="doubleCount" min="0" value="1">
+    </div>
+    <div>
+      <label>Extra Persons</label>
+      <input type="number" id="extraCount" min="0" value="0">
+    </div>
+  </div>
+
   <div class="form-group">
     <label>Start Date</label>
     <input type="date" id="startDate">
@@ -41,14 +56,15 @@
     <input type="date" id="endDate">
   </div>
 
-  <button onclick="calculate()">Calculate Budget</button>
+  <button onclick="addLocation()">➕ Add Location</button>
   <button class="pdf-btn" onclick="downloadPDF()">Download PDF</button>
+  <button class="confirm-btn" onclick="confirmBooking()">✅ Confirm & Email Booking</button>
 
   <div id="result" class="result-box"></div>
+
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="script.js"></script>
-
 </body>
 </html>
