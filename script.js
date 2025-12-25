@@ -4,9 +4,21 @@ let trips = [];
 fetch("rates.json")
   .then(res => res.json())
   .then(json => {
-    data = json["Hotel Rates"]; 
+    if (Array.isArray(json)) {
+      data = json;
+    } else if (json["Hotel Rates"]) {
+      data = json["Hotel Rates"];
+    } else {
+      alert("rates.json structure not valid");
+      return;
+    }
     populateCities();
+  })
+  .catch(err => {
+    console.error(err);
+    alert("Unable to load rates.json");
   });
+
 
 function populateCities() {
   city.innerHTML = `<option value="">Select City</option>`;
@@ -36,7 +48,6 @@ function populateRooms() {
 }
 
 function populatePlans() {
-  plan.value = "";
   extraCount.disabled = false;
   extraCount.value = 0;
 
@@ -48,14 +59,13 @@ function populatePlans() {
 
   if (!r) return;
 
-  // Disable extra person if not available
   if (r["EXTRA PERSON"] === null || r["EXTRA PERSON"] === "-" || isNaN(r["EXTRA PERSON"])) {
     extraCount.value = 0;
     extraCount.disabled = true;
   }
 }
 
-// CHECK BLACKOUT / SUPPLEMENTARY
+// BLACKOUT
 function checkSupplement(row, start, end){
   if(!row["SUPPLEMENTARY"] || row["SUPP START DATE"]==="NaT") return 0;
 
@@ -102,7 +112,6 @@ function addLocation() {
     (double * (r.DOUBLE || 0)) +
     (extra * (r["EXTRA PERSON"] || 0));
 
-  // PLAN LOGIC
   let lunch = Number(r.LUNCH) || 0;
   let dinner = Number(r.DINNER) || 0;
 
@@ -111,7 +120,6 @@ function addLocation() {
 
   let total = perNight * nights;
 
-  // BLACKOUT ADDON
   total += checkSupplement(r, startDate.value, endDate.value);
 
   trips.push({
@@ -171,9 +179,8 @@ function downloadPDF() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
 
-  // LOGO
   const img = new Image();
-  img.src = "Inland_logo.PNG";
+  img.src = "https://raw.githubusercontent.com/mishraskilrock/travel-budget-app/main/Inland_logo.PNG";
   doc.addImage(img, "PNG", 10, 5, 40, 25);
 
   doc.text(result.innerText, 10, 40);
@@ -181,24 +188,22 @@ function downloadPDF() {
   let y = 120;
   doc.text("TERMS & CONDITIONS", 10, y);
   y += 10;
-  doc.text("• Check-in 12:00 PM & Check-out 12:00 PM next day", 10, y);
+  doc.text("• Check-in 12 PM & Check-out 12 PM next day", 10, y);
   y += 8;
   doc.text("• One parking per room subject to availability", 10, y);
   y += 8;
-  doc.text("• 50% payment on confirmation", 10, y);
+  doc.text("• 50% advance on confirmation", 10, y);
   y += 8;
-  doc.text("• Remaining payment 2 days before check-in", 10, y);
+  doc.text("• Balance 2 days before check-in", 10, y);
   y += 8;
-  doc.text("• Supplement charges apply on blackout dates", 10, y);
+  doc.text("• Peak season supplement applicable", 10, y);
   y += 8;
-  doc.text("• Government taxes extra as applicable", 10, y);
-  y += 8;
-  doc.text("• Cancellation policy as per hotel norms", 10, y);
+  doc.text("• Govt taxes extra", 10, y);
 
   doc.save("Travel_Budget.pdf");
 }
 
-// EMAIL CONFIRM
+// EMAIL
 function confirmBooking() {
   if (trips.length === 0) {
     alert("Please add at least one location");
@@ -213,7 +218,6 @@ function confirmBooking() {
   trips.forEach((t, i) => {
     body += `Location ${i + 1}: ${t.city}%0D%0A`;
     body += `Hotel: ${t.hotel}%0D%0A`;
-    body += `Room: ${t.room} (${t.plan})%0D%0A`;
     body += `Stay: ${t.start} to ${t.end}%0D%0A`;
     body += `Budget: INR ${t.total}%0D%0A%0D%0A`;
   });
