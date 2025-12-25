@@ -1,17 +1,24 @@
 let data = [];
 let trips = [];
 
+/* =========================
+   LOAD RATES JSON
+========================= */
 fetch("rates.json")
   .then(res => res.json())
   .then(json => {
     if (Array.isArray(json)) {
       data = json;
-    } else if (json["Hotel Rates"]) {
-      data = json["Hotel Rates"];
+    } else if (json["Master_Data"]) {
+      data = json["Master_Data"];
     } else {
       alert("rates.json structure not valid");
       return;
     }
+
+    // Remove empty rows
+    data = data.filter(d => d.City && d.Hotel && d["ROOM CATEGORY"]);
+
     populateCities();
   })
   .catch(err => {
@@ -19,23 +26,37 @@ fetch("rates.json")
     alert("Unable to load rates.json");
   });
 
-
+/* =========================
+   POPULATE CITY
+========================= */
 function populateCities() {
   city.innerHTML = `<option value="">Select City</option>`;
-  [...new Set(data.map(d => d.City))].forEach(c =>
-    city.innerHTML += `<option>${c}</option>`
-  );
+
+  [...new Set(data.map(d => d.City))]
+    .sort()
+    .forEach(c => {
+      city.innerHTML += `<option value="${c}">${c}</option>`;
+    });
 }
 
+/* =========================
+   POPULATE HOTEL
+========================= */
 function populateHotels() {
   hotel.innerHTML = `<option value="">Select Hotel</option>`;
   room.innerHTML = `<option value="">Select Room</option>`;
 
   [...new Set(
-    data.filter(d => d.City === city.value).map(d => d.Hotel)
-  )].forEach(h => hotel.innerHTML += `<option>${h}</option>`);
+    data.filter(d => d.City === city.value)
+        .map(d => d.Hotel)
+  )].forEach(h => {
+    hotel.innerHTML += `<option value="${h}">${h}</option>`;
+  });
 }
 
+/* =========================
+   POPULATE ROOM
+========================= */
 function populateRooms() {
   room.innerHTML = `<option value="">Select Room</option>`;
 
@@ -44,9 +65,14 @@ function populateRooms() {
       d.City === city.value &&
       d.Hotel === hotel.value
     ).map(d => d["ROOM CATEGORY"])
-  )].forEach(r => room.innerHTML += `<option>${r}</option>`);
+  )].forEach(r => {
+    room.innerHTML += `<option value="${r}">${r}</option>`;
+  });
 }
 
+/* =========================
+   PLAN / EXTRA PERSON LOGIC
+========================= */
 function populatePlans() {
   extraCount.disabled = false;
   extraCount.value = 0;
@@ -65,33 +91,42 @@ function populatePlans() {
   }
 }
 
-// BLACKOUT
-function checkSupplement(row, start, end){
-  if(!row["SUPPLEMENTARY"] || row["SUPP START DATE"]==="NaT") return 0;
+/* =========================
+   PEAK SUPPLEMENT CHECK
+========================= */
+function checkSupplement(row, start, end) {
+  if (!row["SUPPLEMENTARY"] || row["SUPP START DATE"] === "NaT") return 0;
 
   const s = new Date(row["SUPP START DATE"]);
   const e = new Date(row["SUPP END END"]);
   const inDate = new Date(start);
   const outDate = new Date(end);
 
-  if(inDate <= e && outDate >= s){
+  if (inDate <= e && outDate >= s) {
     return Number(row["SUPPLEMENTARY"]) || 0;
   }
   return 0;
 }
 
+/* =========================
+   ADD LOCATION
+========================= */
 function addLocation() {
-
-  if(!city.value || !hotel.value || !room.value || !plan.value){
+  if (!city.value || !hotel.value || !room.value || !plan.value) {
     alert("Please select all fields");
+    return;
+  }
+
+  if (!startDate.value || !endDate.value) {
+    alert("Please select dates");
     return;
   }
 
   const start = new Date(startDate.value);
   const end = new Date(endDate.value);
 
-  if (!startDate.value || !endDate.value || end <= start) {
-    alert("Please select valid dates");
+  if (end <= start) {
+    alert("End date must be after start date");
     return;
   }
 
@@ -108,18 +143,17 @@ function addLocation() {
   const extra = Number(extraCount.value);
 
   let perNight =
-    (single * (r.SINGLE || 0)) +
-    (double * (r.DOUBLE || 0)) +
-    (extra * (r["EXTRA PERSON"] || 0));
+    (single * (Number(r.SINGLE) || 0)) +
+    (double * (Number(r.DOUBLE) || 0)) +
+    (extra * (Number(r["EXTRA PERSON"]) || 0));
 
   let lunch = Number(r.LUNCH) || 0;
   let dinner = Number(r.DINNER) || 0;
 
-  if(plan.value === "MP") perNight += dinner;
-  if(plan.value === "AP") perNight += (lunch + dinner);
+  if (plan.value === "MP") perNight += dinner;
+  if (plan.value === "AP") perNight += (lunch + dinner);
 
   let total = perNight * nights;
-
   total += checkSupplement(r, startDate.value, endDate.value);
 
   trips.push({
@@ -140,6 +174,9 @@ function addLocation() {
   resetForm();
 }
 
+/* =========================
+   SUMMARY
+========================= */
 function renderSummary() {
   let html = `<h3>Travel Budget Summary</h3>`;
   let grand = 0;
@@ -154,14 +191,17 @@ function renderSummary() {
       <p>Stay: ${t.start} to ${t.end}</p>
       <p>Nights: ${t.nights}</p>
       <p>Single: ${t.single}, Double: ${t.double}, Extra: ${t.extra}</p>
-      <p><b>Budget:</b> ₹${t.total}</p>
+      <p><b>Budget:</b> ₹${t.total.toLocaleString()}</p>
     `;
   });
 
-  html += `<hr><h4>Grand Total: ₹${grand}</h4>`;
+  html += `<hr><h4>Grand Total: ₹${grand.toLocaleString()}</h4>`;
   result.innerHTML = html;
 }
 
+/* =========================
+   RESET FORM
+========================= */
 function resetForm() {
   city.selectedIndex = 0;
   hotel.innerHTML = `<option value="">Select Hotel</option>`;
@@ -174,7 +214,9 @@ function resetForm() {
   endDate.value = "";
 }
 
-// PDF
+/* =========================
+   PDF DOWNLOAD
+========================= */
 function downloadPDF() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
@@ -185,25 +227,12 @@ function downloadPDF() {
 
   doc.text(result.innerText, 10, 40);
 
-  let y = 120;
-  doc.text("TERMS & CONDITIONS", 10, y);
-  y += 10;
-  doc.text("• Check-in 12 PM & Check-out 12 PM next day", 10, y);
-  y += 8;
-  doc.text("• One parking per room subject to availability", 10, y);
-  y += 8;
-  doc.text("• 50% advance on confirmation", 10, y);
-  y += 8;
-  doc.text("• Balance 2 days before check-in", 10, y);
-  y += 8;
-  doc.text("• Peak season supplement applicable", 10, y);
-  y += 8;
-  doc.text("• Govt taxes extra", 10, y);
-
   doc.save("Travel_Budget.pdf");
 }
 
-// EMAIL
+/* =========================
+   EMAIL CONFIRMATION
+========================= */
 function confirmBooking() {
   if (trips.length === 0) {
     alert("Please add at least one location");
