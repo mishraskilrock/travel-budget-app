@@ -7,6 +7,16 @@
 </head>
 
 <body>
+
+<!-- SIDE LOGOS -->
+<div class="side-logo left-logo">
+  <img src="Inland_logo.PNG">
+</div>
+
+<div class="side-logo right-logo">
+  <img src="Inland_logo.PNG">
+</div>
+
 <div class="container">
 
   <h2>Travel Budget Calculator</h2>
@@ -28,7 +38,12 @@
 
   <div class="form-group">
     <label>Plan</label>
-    <select id="plan"></select>
+    <select id="plan">
+      <option value="">Select Plan</option>
+      <option value="CP">CP</option>
+      <option value="MP">MP</option>
+      <option value="AP">AP</option>
+    </select>
   </div>
 
   <div class="form-row">
@@ -66,5 +81,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
