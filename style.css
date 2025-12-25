@@ -82,3 +82,23 @@ button:hover {
   border-radius: 8px;
   font-size: 13px;
 }
+
+/* SIDE LOGO */
+.side-logo{
+  position: fixed;
+  top: 30%;
+  z-index: 5;
+}
+
+.left-logo{
+  left: 10px;
+}
+
+.right-logo{
+  right: 10px;
+}
+
+.side-logo img{
+  height: 120px;
+  opacity: 0.9;
+}
