@@ -1,5 +1,4 @@
-{
-  "Master_Data": [
+ [
     {
       "City": "AGRA",
       "Hotel": "Howard Plaza The Fern",
@@ -6015,17 +6014,4 @@
       "SUPP START DATE": null,
       "SUPP END END": null
     }
-  ],
-  "Black Out Date": [
-    {
-      "Unnamed: 0": null,
-      "Unnamed: 1": "Black Out Start",
-      "Unnamed: 2": "Black Out End"
-    },
-    {
-      "Unnamed: 0": null,
-      "Unnamed: 1": "2025-12-31T00:00:00",
-      "Unnamed: 2": "2026-01-02T00:00:00"
-    }
   ]
-}
