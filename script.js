@@ -25,15 +25,14 @@ fetch("./rates.json")
     return response.json();
   })
   .then(json => {
-    if (!json || !Array.isArray(json.data)) {
-      throw new Error("Invalid JSON structure: expected { data: [] }");
-    }
+  if (!Array.isArray(json)) {
+    throw new Error("Invalid JSON structure: expected an array");
+  }
 
-    data = json.data;
-    debug("Rates loaded successfully", data.length);
-
-    populateCities();
-  })
+  data = json;
+  debug("Rates loaded successfully", data.length);
+  populateCities();
+})
   .catch(error => {
     console.error("[TravelApp ERROR] Failed to load rates.json", error);
     alert(
@@ -263,3 +262,4 @@ const cityVal = () => document.getElementById("city").value;
 const hotelVal = () => document.getElementById("hotel").value;
 const roomVal = () => document.getElementById("room").value;
 const planVal = () => document.getElementById("plan").value;
+
