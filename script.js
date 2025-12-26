@@ -8,7 +8,8 @@ fetch("rates.json")
   .then(res => res.json())
   .then(json => {
     if (Array.isArray(json)) {
-      data = json;
+      data = json.data;
+
     } else if (json["Master_Data"]) {
       data = json["Master_Data"];
     } else {
@@ -258,3 +259,4 @@ function confirmBooking() {
     "?subject=Travel Budget Confirmation" +
     "&body=" + body;
 }
+
