@@ -1,262 +1,265 @@
+/****************************************************
+ * GLOBAL VARIABLES
+ ****************************************************/
 let data = [];
-let trips = [];
+let travelSummary = [];
+let locationCounter = 1;
 
-/* =========================
-   LOAD RATES JSON
-========================= */
-fetch("rates.json")
-  .then(res => res.json())
+/****************************************************
+ * DEBUG LOGGER (VERY IMPORTANT)
+ ****************************************************/
+function debug(msg, obj = "") {
+  console.log(`[TravelApp DEBUG] ${msg}`, obj);
+}
+
+/****************************************************
+ * LOAD JSON DATA
+ ****************************************************/
+debug("Application loading...");
+
+fetch("./rates.json")
+  .then(response => {
+    if (!response.ok) {
+      throw new Error("HTTP error " + response.status);
+    }
+    return response.json();
+  })
   .then(json => {
-    if (Array.isArray(json)) {
-      data = json.data;
-
-    } else if (json["Master_Data"]) {
-      data = json["Master_Data"];
-    } else {
-      alert("rates.json structure not valid");
-      return;
+    if (!json || !Array.isArray(json.data)) {
+      throw new Error("Invalid JSON structure: expected { data: [] }");
     }
 
-    // Remove empty rows
-    data = data.filter(d => d.City && d.Hotel && d["ROOM CATEGORY"]);
+    data = json.data;
+    debug("Rates loaded successfully", data.length);
 
     populateCities();
   })
-  .catch(err => {
-    console.error(err);
-    alert("Unable to load rates.json");
+  .catch(error => {
+    console.error("[TravelApp ERROR] Failed to load rates.json", error);
+    alert(
+      "Rates could not be loaded.\n\n" +
+      "Please check:\n" +
+      "1. rates.json exists in repo root\n" +
+      "2. JSON structure is { data: [...] }\n" +
+      "3. Console for detailed error"
+    );
   });
 
-/* =========================
-   POPULATE CITY
-========================= */
+/****************************************************
+ * DROPDOWN POPULATION FUNCTIONS
+ ****************************************************/
 function populateCities() {
-  city.innerHTML = `<option value="">Select City</option>`;
+  debug("Populating cities");
+  const citySelect = document.getElementById("city");
+  citySelect.innerHTML = `<option value="">Select City</option>`;
 
-  [...new Set(data.map(d => d.City))]
-    .sort()
-    .forEach(c => {
-      city.innerHTML += `<option value="${c}">${c}</option>`;
-    });
+  [...new Set(data.map(d => d.City).filter(Boolean))].forEach(city => {
+    citySelect.innerHTML += `<option>${city}</option>`;
+  });
 }
 
-/* =========================
-   POPULATE HOTEL
-========================= */
 function populateHotels() {
-  hotel.innerHTML = `<option value="">Select Hotel</option>`;
-  room.innerHTML = `<option value="">Select Room</option>`;
+  const city = document.getElementById("city").value;
+  debug("Selected city:", city);
+
+  const hotelSelect = document.getElementById("hotel");
+  hotelSelect.innerHTML = `<option value="">Select Hotel</option>`;
+
+  resetBelow("hotel");
 
   [...new Set(
-    data.filter(d => d.City === city.value)
-        .map(d => d.Hotel)
-  )].forEach(h => {
-    hotel.innerHTML += `<option value="${h}">${h}</option>`;
+    data.filter(d => d.City === city).map(d => d.Hotel)
+  )].forEach(hotel => {
+    hotelSelect.innerHTML += `<option>${hotel}</option>`;
   });
 }
 
-/* =========================
-   POPULATE ROOM
-========================= */
 function populateRooms() {
-  room.innerHTML = `<option value="">Select Room</option>`;
+  const city = document.getElementById("city").value;
+  const hotel = document.getElementById("hotel").value;
+  debug("Selected hotel:", hotel);
+
+  const roomSelect = document.getElementById("room");
+  roomSelect.innerHTML = `<option value="">Select Room</option>`;
+
+  resetBelow("room");
+
+  [...new Set(
+    data.filter(d => d.City === city && d.Hotel === hotel)
+        .map(d => d["ROOM CATEGORY"])
+  )].forEach(room => {
+    roomSelect.innerHTML += `<option>${room}</option>`;
+  });
+}
+
+function populatePlans() {
+  const city = cityVal();
+  const hotel = hotelVal();
+  const room = roomVal();
+
+  debug("Selected room:", room);
+
+  const planSelect = document.getElementById("plan");
+  planSelect.innerHTML = `<option value="">Select Plan</option>`;
 
   [...new Set(
     data.filter(d =>
-      d.City === city.value &&
-      d.Hotel === hotel.value
-    ).map(d => d["ROOM CATEGORY"])
-  )].forEach(r => {
-    room.innerHTML += `<option value="${r}">${r}</option>`;
+      d.City === city &&
+      d.Hotel === hotel &&
+      d["ROOM CATEGORY"] === room
+    ).map(d => d.PLAN)
+  )].forEach(plan => {
+    planSelect.innerHTML += `<option>${plan}</option>`;
   });
 }
 
-/* =========================
-   PLAN / EXTRA PERSON LOGIC
-========================= */
-function populatePlans() {
-  extraCount.disabled = false;
-  extraCount.value = 0;
+/****************************************************
+ * CALCULATION LOGIC
+ ****************************************************/
+function calculate() {
+  const city = cityVal();
+  const hotel = hotelVal();
+  const room = roomVal();
+  const plan = planVal();
 
-  const r = data.find(d =>
-    d.City === city.value &&
-    d.Hotel === hotel.value &&
-    d["ROOM CATEGORY"] === room.value
+  const singleRooms = +document.getElementById("singleRooms").value || 0;
+  const doubleRooms = +document.getElementById("doubleRooms").value || 0;
+  const extraPersons = +document.getElementById("extraPersons").value || 0;
+
+  const startDate = new Date(document.getElementById("startDate").value);
+  const endDate = new Date(document.getElementById("endDate").value);
+
+  if (!city || !hotel || !room || !plan || !startDate || !endDate) {
+    alert("Please fill all required fields");
+    return;
+  }
+
+  const nights = Math.max(
+    Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)),
+    1
   );
 
-  if (!r) return;
-
-  if (r["EXTRA PERSON"] === null || r["EXTRA PERSON"] === "-" || isNaN(r["EXTRA PERSON"])) {
-    extraCount.value = 0;
-    extraCount.disabled = true;
-  }
-}
-
-/* =========================
-   PEAK SUPPLEMENT CHECK
-========================= */
-function checkSupplement(row, start, end) {
-  if (!row["SUPPLEMENTARY"] || row["SUPP START DATE"] === "NaT") return 0;
-
-  const s = new Date(row["SUPP START DATE"]);
-  const e = new Date(row["SUPP END END"]);
-  const inDate = new Date(start);
-  const outDate = new Date(end);
-
-  if (inDate <= e && outDate >= s) {
-    return Number(row["SUPPLEMENTARY"]) || 0;
-  }
-  return 0;
-}
-
-/* =========================
-   ADD LOCATION
-========================= */
-function addLocation() {
-  if (!city.value || !hotel.value || !room.value || !plan.value) {
-    alert("Please select all fields");
-    return;
-  }
-
-  if (!startDate.value || !endDate.value) {
-    alert("Please select dates");
-    return;
-  }
-
-  const start = new Date(startDate.value);
-  const end = new Date(endDate.value);
-
-  if (end <= start) {
-    alert("End date must be after start date");
-    return;
-  }
-
-  const nights = Math.ceil((end - start) / (1000 * 60 * 60 * 24));
-
-  const r = data.find(d =>
-    d.City === city.value &&
-    d.Hotel === hotel.value &&
-    d["ROOM CATEGORY"] === room.value
+  const rate = data.find(d =>
+    d.City === city &&
+    d.Hotel === hotel &&
+    d["ROOM CATEGORY"] === room &&
+    d.PLAN === plan
   );
 
-  const single = Number(singleCount.value);
-  const double = Number(doubleCount.value);
-  const extra = Number(extraCount.value);
+  if (!rate) {
+    alert("Rate not found");
+    return;
+  }
 
-  let perNight =
-    (single * (Number(r.SINGLE) || 0)) +
-    (double * (Number(r.DOUBLE) || 0)) +
-    (extra * (Number(r["EXTRA PERSON"]) || 0));
+  const total =
+    nights *
+    (
+      singleRooms * rate.SINGLE +
+      doubleRooms * rate.DOUBLE +
+      extraPersons * rate["EXTRA PERSON"]
+    );
 
-  let lunch = Number(r.LUNCH) || 0;
-  let dinner = Number(r.DINNER) || 0;
-
-  if (plan.value === "MP") perNight += dinner;
-  if (plan.value === "AP") perNight += (lunch + dinner);
-
-  let total = perNight * nights;
-  total += checkSupplement(r, startDate.value, endDate.value);
-
-  trips.push({
-    city: r.City,
-    hotel: r.Hotel,
-    room: r["ROOM CATEGORY"],
-    plan: plan.value,
-    nights,
-    start: startDate.value,
-    end: endDate.value,
-    single,
-    double,
-    extra,
+  const summary = {
+    city, hotel, room, plan,
+    nights, singleRooms, doubleRooms, extraPersons,
     total
-  });
+  };
+
+  travelSummary.push(summary);
+  debug("Location added:", summary);
 
   renderSummary();
   resetForm();
 }
 
-/* =========================
-   SUMMARY
-========================= */
+/****************************************************
+ * SUMMARY RENDERING
+ ****************************************************/
 function renderSummary() {
+  const result = document.getElementById("result");
   let html = `<h3>Travel Budget Summary</h3>`;
-  let grand = 0;
+  let grandTotal = 0;
 
-  trips.forEach((t, i) => {
-    grand += t.total;
+  travelSummary.forEach((s, i) => {
+    grandTotal += s.total;
     html += `
-      <hr>
-      <p><b>Location ${i + 1}: ${t.city}</b></p>
-      <p>Hotel: ${t.hotel}</p>
-      <p>Room: ${t.room} (${t.plan})</p>
-      <p>Stay: ${t.start} to ${t.end}</p>
-      <p>Nights: ${t.nights}</p>
-      <p>Single: ${t.single}, Double: ${t.double}, Extra: ${t.extra}</p>
-      <p><b>Budget:</b> ₹${t.total.toLocaleString()}</p>
+      <div class="summary-card">
+        <h4>Location ${i + 1}: ${s.city}</h4>
+        <p><b>Hotel:</b> ${s.hotel}</p>
+        <p><b>Room:</b> ${s.room}</p>
+        <p><b>Plan:</b> ${s.plan}</p>
+        <p><b>Nights:</b> ${s.nights}</p>
+        <p><b>Single Rooms:</b> ${s.singleRooms}</p>
+        <p><b>Double Rooms:</b> ${s.doubleRooms}</p>
+        <p><b>Extra Persons:</b> ${s.extraPersons}</p>
+        <p><b>Location Total:</b> ₹${s.total.toLocaleString()}</p>
+      </div>
     `;
   });
 
-  html += `<hr><h4>Grand Total: ₹${grand.toLocaleString()}</h4>`;
+  html += `<h2>Total Budget: ₹${grandTotal.toLocaleString()}</h2>`;
   result.innerHTML = html;
 }
 
-/* =========================
-   RESET FORM
-========================= */
-function resetForm() {
-  city.selectedIndex = 0;
-  hotel.innerHTML = `<option value="">Select Hotel</option>`;
-  room.innerHTML = `<option value="">Select Room</option>`;
-  plan.value = "";
-  singleCount.value = 0;
-  doubleCount.value = 1;
-  extraCount.value = 0;
-  startDate.value = "";
-  endDate.value = "";
-}
-
-/* =========================
-   PDF DOWNLOAD
-========================= */
+/****************************************************
+ * PDF DOWNLOAD
+ ****************************************************/
 function downloadPDF() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
 
-  const img = new Image();
-  img.src = "https://raw.githubusercontent.com/mishraskilrock/travel-budget-app/main/Inland_logo.PNG";
-  doc.addImage(img, "PNG", 10, 5, 40, 25);
+  let y = 20;
+  doc.setFontSize(16);
+  doc.text("Travel Budget Summary", 20, y);
+  y += 10;
 
-  doc.text(result.innerText, 10, 40);
+  travelSummary.forEach((s, i) => {
+    doc.setFontSize(12);
+    doc.text(`Location ${i + 1}: ${s.city}`, 20, y); y += 8;
+    doc.text(`Hotel: ${s.hotel}`, 20, y); y += 6;
+    doc.text(`Room: ${s.room}`, 20, y); y += 6;
+    doc.text(`Plan: ${s.plan}`, 20, y); y += 6;
+    doc.text(`Nights: ${s.nights}`, 20, y); y += 6;
+    doc.text(`Single: ${s.singleRooms}, Double: ${s.doubleRooms}, Extra: ${s.extraPersons}`, 20, y); y += 6;
+    doc.text(`Total: ₹${s.total}`, 20, y); y += 10;
+  });
 
   doc.save("Travel_Budget.pdf");
 }
 
-/* =========================
-   EMAIL CONFIRMATION
-========================= */
-function confirmBooking() {
-  if (trips.length === 0) {
-    alert("Please add at least one location");
-    return;
-  }
+/****************************************************
+ * CONFIRM & EMAIL (CLIENT SIDE SAFE)
+ ****************************************************/
+function confirmAndEmail() {
+  const email = prompt("Enter your email ID to confirm booking:");
+  if (!email) return;
 
-  downloadPDF();
+  const subject = "Travel Package Confirmation";
+  const body = encodeURIComponent(
+    "I agree with the travel quotation.\n\nPlease find the attached budget PDF.\n\nThank you."
+  );
 
-  let body = "Dear Team,%0D%0A%0D%0A";
-  body += "I agree with the below travel quotation:%0D%0A%0D%0A";
-
-  trips.forEach((t, i) => {
-    body += `Location ${i + 1}: ${t.city}%0D%0A`;
-    body += `Hotel: ${t.hotel}%0D%0A`;
-    body += `Stay: ${t.start} to ${t.end}%0D%0A`;
-    body += `Budget: INR ${t.total}%0D%0A%0D%0A`;
-  });
-
-  body += "Please find attached PDF.%0D%0ARegards,%0D%0AClient";
-
-  window.location.href =
-    "mailto:abctravel@xyz.com" +
-    "?subject=Travel Budget Confirmation" +
-    "&body=" + body;
+  window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
 }
 
+/****************************************************
+ * UTILITIES
+ ****************************************************/
+function resetForm() {
+  document.querySelectorAll("select, input").forEach(el => el.value = "");
+}
+
+function resetBelow(id) {
+  if (id === "hotel") {
+    document.getElementById("room").innerHTML = `<option value="">Select Room</option>`;
+    document.getElementById("plan").innerHTML = `<option value="">Select Plan</option>`;
+  }
+  if (id === "room") {
+    document.getElementById("plan").innerHTML = `<option value="">Select Plan</option>`;
+  }
+}
+
+const cityVal = () => document.getElementById("city").value;
+const hotelVal = () => document.getElementById("hotel").value;
+const roomVal = () => document.getElementById("room").value;
+const planVal = () => document.getElementById("plan").value;
