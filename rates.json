@@ -8,8 +8,8 @@
       "SINGLE": 3900.0,
       "DOUBLE": 4400.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
+      "LUNCH": null,
+      "DINNER": null,
       "COMMENT": "Peak Period Supplement :  AGRA 3000 extra on the above rates from 25th December till 02 JANUARY 2025",
       "SUPPLEMENTARY": 3000,
       "SUPP START DATE": "2025-12-25T00:00:00",
@@ -23,8 +23,8 @@
       "SINGLE": 4600.0,
       "DOUBLE": 5100.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
+      "LUNCH": null,
+      "DINNER": null,
       "COMMENT": "Peak Period Supplement :   Extra on the above rates from 25th December till 02 JANUARY 2026",
       "SUPPLEMENTARY": 3000,
       "SUPP START DATE": "2025-12-25T00:00:00",
@@ -38,8 +38,8 @@
       "SINGLE": 3900.0,
       "DOUBLE": 4400.0,
       "EXTRA PERSON": 1100,
-      "LUNCH": "null",
-      "DINNER": "null",
+      "LUNCH": null,
+      "DINNER": null,
       "COMMENT": "Peak Period Supplement :   Extra on the above rates from 25th December till 02 JANUARY 2026",
       "SUPPLEMENTARY": 3000,
       "SUPP START DATE": "2025-12-25T00:00:00",
@@ -53,8 +53,8 @@
       "SINGLE": 4400.0,
       "DOUBLE": 4900.0,
       "EXTRA PERSON": 1100,
-      "LUNCH": "null",
-      "DINNER": "null",
+      "LUNCH": null,
+      "DINNER": null,
       "COMMENT": "Peak Period Supplement :   Extra on the above rates from 25th December till 02 JANUARY 2026",
       "SUPPLEMENTARY": 3000,
       "SUPP START DATE": "2025-12-25T00:00:00",
@@ -113,8 +113,8 @@
       "SINGLE": 4300.0,
       "DOUBLE": 4800.0,
       "EXTRA PERSON": 1200,
-      "LUNCH": "null",
-      "DINNER": "null",
+      "LUNCH": null,
+      "DINNER": null,
       "COMMENT": "Peak Period Supplement :   Extra on the above rates from 25th December till 02 JANUARY 2026",
       "SUPPLEMENTARY": 3000,
       "SUPP START DATE": "2025-12-25T00:00:00",
@@ -128,8 +128,8 @@
       "SINGLE": 5800.0,
       "DOUBLE": 6290.0,
       "EXTRA PERSON": 1200,
-      "LUNCH": "null",
-      "DINNER": "null",
+      "LUNCH": null,
+      "DINNER": null,
       "COMMENT": "Peak Period Supplement :   Extra on the above rates from 25th December till 02 JANUARY 2026",
       "SUPPLEMENTARY": 3000,
       "SUPP START DATE": "2025-12-25T00:00:00",
@@ -233,8 +233,8 @@
       "SINGLE": 4200.0,
       "DOUBLE": 4700.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
+      "LUNCH": null,
+      "DINNER": null,
       "COMMENT": "Peak Period Supplement :   Extra on the above rates from 25th December till 02 JANUARY 2026",
       "SUPPLEMENTARY": 3000,
       "SUPP START DATE": "2025-12-25T00:00:00",
@@ -248,8 +248,8 @@
       "SINGLE": 5500.0,
       "DOUBLE": 6000.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
+      "LUNCH": null,
+      "DINNER": null,
       "COMMENT": "Peak Period Supplement :   Extra on the above rates from 25th December till 02 JANUARY 2026",
       "SUPPLEMENTARY": 3000,
       "SUPP START DATE": "2025-12-25T00:00:00",
@@ -263,8 +263,8 @@
       "SINGLE": 7000.0,
       "DOUBLE": 7490.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
+      "LUNCH": null,
+      "DINNER": null,
       "COMMENT": "Peak Period Supplement :   Extra on the above rates from 25th December till 02 JANUARY 2026",
       "SUPPLEMENTARY": 3000,
       "SUPP START DATE": "2025-12-25T00:00:00",
@@ -413,12 +413,12 @@
       "SINGLE": 3200.0,
       "DOUBLE": 3700.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HARIDWAR",
@@ -428,27 +428,27 @@
       "SINGLE": 4200.0,
       "DOUBLE": 4700.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HARIDWAR",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KATRA (VAISHNO DEVI)",
@@ -458,12 +458,12 @@
       "SINGLE": 3400.0,
       "DOUBLE": 3700.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KATRA (VAISHNO DEVI)",
@@ -473,12 +473,12 @@
       "SINGLE": 3900.0,
       "DOUBLE": 4200.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KATRA (VAISHNO DEVI)",
@@ -488,27 +488,27 @@
       "SINGLE": 6300.0,
       "DOUBLE": 6300.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KATRA (VAISHNO DEVI)",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUSSOORIE",
@@ -520,10 +520,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUSSOORIE",
@@ -535,10 +535,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUSSOORIE",
@@ -550,10 +550,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUSSOORIE",
@@ -565,10 +565,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "NEW DELHI",
@@ -580,10 +580,10 @@
       "EXTRA PERSON": "-",
       "LUNCH": 550.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "NEW DELHI",
@@ -595,10 +595,10 @@
       "EXTRA PERSON": "-",
       "LUNCH": 550.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SARNATH (VARANASI)",
@@ -610,10 +610,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 800.0,
       "DINNER": 800.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SARNATH (VARANASI)",
@@ -625,10 +625,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 800.0,
       "DINNER": 800.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AJMER",
@@ -638,12 +638,12 @@
       "SINGLE": 3600.0,
       "DOUBLE": 3900.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AJMER",
@@ -653,12 +653,12 @@
       "SINGLE": 3800.0,
       "DOUBLE": 4100.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AJMER",
@@ -668,12 +668,12 @@
       "SINGLE": 4100.0,
       "DOUBLE": 4400.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AJMER",
@@ -685,10 +685,10 @@
       "EXTRA PERSON": 800,
       "LUNCH": 500.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AJMER",
@@ -700,10 +700,10 @@
       "EXTRA PERSON": 800,
       "LUNCH": 500.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ALWAR",
@@ -713,12 +713,12 @@
       "SINGLE": 3300.0,
       "DOUBLE": 3800.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ALWAR",
@@ -728,12 +728,12 @@
       "SINGLE": 3800.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ALWAR",
@@ -743,12 +743,12 @@
       "SINGLE": 4300.0,
       "DOUBLE": 4800.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BAMBORA",
@@ -762,8 +762,8 @@
       "DINNER": 600.0,
       "COMMENT": "2025-12-25T00:00:00",
       "SUPPLEMENTARY": "2026-01-02T00:00:00",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BAMBORA",
@@ -775,10 +775,10 @@
       "EXTRA PERSON": 1200,
       "LUNCH": 600.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BAMBORA",
@@ -790,10 +790,10 @@
       "EXTRA PERSON": 1200,
       "LUNCH": 600.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
@@ -818,27 +818,27 @@
       "SINGLE": 5200.0,
       "DOUBLE": 5700.0,
       "EXTRA PERSON": 1200,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
       "Hotel": "The Fern An Ecotel Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
@@ -848,12 +848,12 @@
       "SINGLE": 4500.0,
       "DOUBLE": 4800.0,
       "EXTRA PERSON": 1200,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
@@ -863,12 +863,12 @@
       "SINGLE": 5500.0,
       "DOUBLE": 5800.0,
       "EXTRA PERSON": 1200,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
@@ -878,12 +878,12 @@
       "SINGLE": 4300.0,
       "DOUBLE": 4800.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
@@ -893,12 +893,12 @@
       "SINGLE": 4600.0,
       "DOUBLE": 5100.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
@@ -908,12 +908,12 @@
       "SINGLE": 4900.0,
       "DOUBLE": 5400.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
@@ -923,12 +923,12 @@
       "SINGLE": 2800.0,
       "DOUBLE": 3000.0,
       "EXTRA PERSON": 900,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
@@ -938,12 +938,12 @@
       "SINGLE": 3000.0,
       "DOUBLE": 3200.0,
       "EXTRA PERSON": 900,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
@@ -953,12 +953,12 @@
       "SINGLE": 3200.0,
       "DOUBLE": 3400.0,
       "EXTRA PERSON": 900,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAIPUR",
@@ -968,12 +968,12 @@
       "SINGLE": 3400.0,
       "DOUBLE": 3600.0,
       "EXTRA PERSON": 900,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAISALMER",
@@ -985,10 +985,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 600.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAISALMER",
@@ -1000,25 +1000,25 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 600.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAISALMER",
       "Hotel": "SKK The Fern An Ecotel Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAWAI",
@@ -1028,12 +1028,12 @@
       "SINGLE": 14000.0,
       "DOUBLE": 14000.0,
       "EXTRA PERSON": 5000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAWAI",
@@ -1043,12 +1043,12 @@
       "SINGLE": 15000.0,
       "DOUBLE": 15000.0,
       "EXTRA PERSON": 5000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAWAI",
@@ -1058,12 +1058,12 @@
       "SINGLE": 26000.0,
       "DOUBLE": 26000.0,
       "EXTRA PERSON": 5000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAWAI",
@@ -1073,12 +1073,12 @@
       "SINGLE": 28000.0,
       "DOUBLE": 28000.0,
       "EXTRA PERSON": 5000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JODHPUR",
@@ -1088,12 +1088,12 @@
       "SINGLE": 4000.0,
       "DOUBLE": 4500.0,
       "EXTRA PERSON": 1200,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JODHPUR",
@@ -1103,27 +1103,27 @@
       "SINGLE": 4500.0,
       "DOUBLE": 5000.0,
       "EXTRA PERSON": 1200,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JODHPUR",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "NAWALGARH",
@@ -1133,12 +1133,12 @@
       "SINGLE": 3500.0,
       "DOUBLE": 4000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "NAWALGARH",
@@ -1148,12 +1148,12 @@
       "SINGLE": 4000.0,
       "DOUBLE": 4500.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "NAWALGARH",
@@ -1163,27 +1163,27 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5500.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "NAWALGARH",
       "Hotel": "Koolwal Kothi Zinc Journey by The Fern",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SAWAI MADHOPUR (RANTHAMBORE)",
@@ -1193,12 +1193,12 @@
       "SINGLE": 7000.0,
       "DOUBLE": 8000.0,
       "EXTRA PERSON": 3500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SAWAI MADHOPUR (RANTHAMBORE)",
@@ -1208,12 +1208,12 @@
       "SINGLE": 7000.0,
       "DOUBLE": 8000.0,
       "EXTRA PERSON": 3500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SAWAI MADHOPUR (RANTHAMBORE)",
@@ -1223,12 +1223,12 @@
       "SINGLE": 7000.0,
       "DOUBLE": 8000.0,
       "EXTRA PERSON": 3500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
@@ -1240,10 +1240,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 600.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
@@ -1255,10 +1255,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 600.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
@@ -1270,25 +1270,25 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 600.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
@@ -1298,12 +1298,12 @@
       "SINGLE": 2800.0,
       "DOUBLE": 3300.0,
       "EXTRA PERSON": 800,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
@@ -1313,57 +1313,57 @@
       "SINGLE": 3800.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 800,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
       "Hotel": "Avins Beacon Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
       "Hotel": "Avins Beacon Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
       "Hotel": "Avins Beacon Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
@@ -1373,12 +1373,12 @@
       "SINGLE": 4000.0,
       "DOUBLE": 4500.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
@@ -1388,12 +1388,12 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5500.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
@@ -1403,27 +1403,27 @@
       "SINGLE": 7000.0,
       "DOUBLE": 7000.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "UDAIPUR",
       "Hotel": "The Fern Residency, Ellis Bridge",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AHMEDABAD",
@@ -1435,10 +1435,10 @@
       "EXTRA PERSON": "-",
       "LUNCH": 500.0,
       "DINNER": 500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AHMEDABAD",
@@ -1450,10 +1450,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 500.0,
       "DINNER": 500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AHMEDABAD",
@@ -1465,10 +1465,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 500.0,
       "DINNER": 500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AHMEDABAD",
@@ -1480,25 +1480,25 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 500.0,
       "DINNER": 500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AHMEDABAD",
       "Hotel": "The Fern Residency, Subhash Bridge",
       "ROOM CATEGORY": "Winter Green rooms can only accommodate single occupancy",
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AHMEDABAD",
@@ -1510,25 +1510,25 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 400.0,
       "DINNER": 400.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AHMEDABAD",
       "Hotel": "Kanak Beacon Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ANJAR",
@@ -1540,10 +1540,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 350.0,
       "DINNER": 400.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ANJAR",
@@ -1555,10 +1555,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 350.0,
       "DINNER": 400.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ANJAR",
@@ -1568,12 +1568,12 @@
       "SINGLE": 3000.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ANJAR",
@@ -1585,10 +1585,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 350.0,
       "DINNER": 400.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ANJAR",
@@ -1600,10 +1600,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 350.0,
       "DINNER": 400.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ANJAR",
@@ -1615,10 +1615,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 350.0,
       "DINNER": 400.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ANJAR",
@@ -1630,10 +1630,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 350.0,
       "DINNER": 400.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BHAVNAGAR",
@@ -1643,12 +1643,12 @@
       "SINGLE": 3000.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BHAVNAGAR",
@@ -1658,12 +1658,12 @@
       "SINGLE": 3000.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BHAVNAGAR",
@@ -1673,27 +1673,27 @@
       "SINGLE": 3000.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BHAVNAGAR",
       "Hotel": "Iscon The Fern Resort & Spa",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BHAVNAGAR",
@@ -1705,10 +1705,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 350.0,
       "DINNER": 400.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BHAVNAGAR",
@@ -1720,25 +1720,25 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 350.0,
       "DINNER": 400.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BHAVNAGAR",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DAMAN",
@@ -1750,10 +1750,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 800.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DAMAN",
@@ -1765,10 +1765,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 800.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DAMAN",
@@ -1780,10 +1780,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 800.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DAMAN",
@@ -1793,12 +1793,12 @@
       "SINGLE": 6500.0,
       "DOUBLE": 7500.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DAMAN",
@@ -1808,27 +1808,27 @@
       "SINGLE": 6500.0,
       "DOUBLE": 7500.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DAMAN",
       "Hotel": "Nest Beacon Resort, Daman",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DHARI",
@@ -1838,12 +1838,12 @@
       "SINGLE": 3800.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DHARI",
@@ -1853,12 +1853,12 @@
       "SINGLE": 3800.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DHARI",
@@ -1868,12 +1868,12 @@
       "SINGLE": 3800.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DHARI",
@@ -1883,27 +1883,27 @@
       "SINGLE": 3800.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DHARI",
       "Hotel": "The Fern Wisteria Resort",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DIU",
@@ -1915,25 +1915,25 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DIU",
       "Hotel": "Kamnath Zinc Journey by The Fern",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DWARKA",
@@ -1945,10 +1945,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DWARKA",
@@ -1960,10 +1960,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DWARKA",
@@ -1975,10 +1975,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DWARKA",
@@ -1990,10 +1990,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DWARKA",
@@ -2003,12 +2003,12 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5500.0,
       "EXTRA PERSON": 800,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DWARKA",
@@ -2018,12 +2018,12 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5500.0,
       "EXTRA PERSON": 800,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DWARKA",
@@ -2033,12 +2033,12 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5500.0,
       "EXTRA PERSON": 800,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DWARKA",
@@ -2048,27 +2048,27 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5500.0,
       "EXTRA PERSON": 800,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DWARKA",
       "Hotel": "Guruprerna Beacon Resort",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "EKTA NAGAR (KEVADIA)",
@@ -2080,25 +2080,25 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "EKTA NAGAR (KEVADIA)",
       "Hotel": "The Fern Sardar Sarovar Resort",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "EKTA NAGAR (KEVADIA)",
@@ -2110,10 +2110,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "EKTA NAGAR (KEVADIA)",
@@ -2125,10 +2125,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "EKTA NAGAR (KEVADIA)",
@@ -2140,10 +2140,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "EKTA NAGAR (KEVADIA)",
@@ -2155,10 +2155,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANDHINAGAR",
@@ -2170,10 +2170,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 500.0,
       "DINNER": 500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANDHINAGAR",
@@ -2185,10 +2185,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 500.0,
       "DINNER": 500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANDHINAGAR",
@@ -2200,10 +2200,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 500.0,
       "DINNER": 500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANDHINAGAR",
@@ -2215,10 +2215,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 500.0,
       "DINNER": 500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANDHINAGAR",
@@ -2230,10 +2230,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 500.0,
       "DINNER": 500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANDHINAGAR",
@@ -2245,10 +2245,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANDHINAGAR",
@@ -2260,10 +2260,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANDHINAGAR",
@@ -2275,10 +2275,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANDHINAGAR",
@@ -2290,10 +2290,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAMNAGAR",
@@ -2303,12 +2303,12 @@
       "SINGLE": 3500.0,
       "DOUBLE": 4000.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAMNAGAR",
@@ -2318,12 +2318,12 @@
       "SINGLE": 4000.0,
       "DOUBLE": 4500.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAMNAGAR",
@@ -2333,12 +2333,12 @@
       "SINGLE": 7200.0,
       "DOUBLE": 7200.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAMNAGAR",
@@ -2348,12 +2348,12 @@
       "SINGLE": 2800.0,
       "DOUBLE": 3300.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAMNAGAR",
@@ -2363,12 +2363,12 @@
       "SINGLE": 3300.0,
       "DOUBLE": 3800.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JAMNAGAR",
@@ -2378,12 +2378,12 @@
       "SINGLE": 3800.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JUNAGADH",
@@ -2393,12 +2393,12 @@
       "SINGLE": 4700.0,
       "DOUBLE": 5700.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JUNAGADH",
@@ -2408,12 +2408,12 @@
       "SINGLE": 4700.0,
       "DOUBLE": 5700.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "JUNAGADH",
@@ -2423,12 +2423,12 @@
       "SINGLE": 4700.0,
       "DOUBLE": 5700.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LITTLE RANN OF KUTCH",
@@ -2440,10 +2440,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LITTLE RANN OF KUTCH",
@@ -2455,10 +2455,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LITTLE RANN OF KUTCH",
@@ -2470,10 +2470,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LITTLE RANN OF KUTCH",
@@ -2485,10 +2485,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MADHAVPUR",
@@ -2498,12 +2498,12 @@
       "SINGLE": 6000.0,
       "DOUBLE": 7000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MORBI",
@@ -2513,12 +2513,12 @@
       "SINGLE": 3400.0,
       "DOUBLE": 3900.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MORBI",
@@ -2528,12 +2528,12 @@
       "SINGLE": 3900.0,
       "DOUBLE": 4400.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MORBI",
@@ -2543,12 +2543,12 @@
       "SINGLE": 4400.0,
       "DOUBLE": 4900.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUNDRA",
@@ -2560,10 +2560,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUNDRA",
@@ -2575,10 +2575,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUNDRA",
@@ -2590,10 +2590,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "I DEVATI",
@@ -2605,10 +2605,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "I DEVATI",
@@ -2620,10 +2620,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "I DEVATI",
@@ -2635,10 +2635,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "I DEVATI",
@@ -2650,10 +2650,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "POLO FOREST",
@@ -2665,10 +2665,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "POLO FOREST",
@@ -2680,10 +2680,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "POLO FOREST",
@@ -2695,10 +2695,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PORBANDAR",
@@ -2708,12 +2708,12 @@
       "SINGLE": 3800.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PORBANDAR",
@@ -2723,12 +2723,12 @@
       "SINGLE": 4800.0,
       "DOUBLE": 5300.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PORBANDAR",
@@ -2738,27 +2738,27 @@
       "SINGLE": 6800.0,
       "DOUBLE": 7200.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PORBANDAR",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "RAJKOT",
@@ -2768,12 +2768,12 @@
       "SINGLE": 3600.0,
       "DOUBLE": 4100.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "RAJKOT",
@@ -2783,12 +2783,12 @@
       "SINGLE": 4100.0,
       "DOUBLE": 4600.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "RAJKOT",
@@ -2798,27 +2798,27 @@
       "SINGLE": 7100.0,
       "DOUBLE": 7100.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "RAJKOT",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "RAJKOT",
@@ -2828,12 +2828,12 @@
       "SINGLE": 2700.0,
       "DOUBLE": 3200.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "RAJKOT",
@@ -2843,12 +2843,12 @@
       "SINGLE": 3200.0,
       "DOUBLE": 3700.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "RAJKOT",
@@ -2858,27 +2858,27 @@
       "SINGLE": 3700.0,
       "DOUBLE": 4200.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "RAJKOT",
       "Hotel": "Iris Beacon",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SASAN GIR",
@@ -2888,12 +2888,12 @@
       "SINGLE": 12800.0,
       "DOUBLE": 12800.0,
       "EXTRA PERSON": 2000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SASAN GIR",
@@ -2903,12 +2903,12 @@
       "SINGLE": 14800.0,
       "DOUBLE": 14800.0,
       "EXTRA PERSON": 2000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SASAN GIR",
@@ -2918,12 +2918,12 @@
       "SINGLE": 15800.0,
       "DOUBLE": 15800.0,
       "EXTRA PERSON": 2000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SASAN GIR",
@@ -2933,12 +2933,12 @@
       "SINGLE": 45900.0,
       "DOUBLE": 45900.0,
       "EXTRA PERSON": 2000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SOMNATH",
@@ -2950,10 +2950,10 @@
       "EXTRA PERSON": 850,
       "LUNCH": 550.0,
       "DINNER": 550.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SOMNATH",
@@ -2965,10 +2965,10 @@
       "EXTRA PERSON": 850,
       "LUNCH": 550.0,
       "DINNER": 550.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SOMNATH",
@@ -2980,25 +2980,25 @@
       "EXTRA PERSON": 850,
       "LUNCH": 550.0,
       "DINNER": 550.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SOMNATH",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SOMNATH",
@@ -3008,12 +3008,12 @@
       "SINGLE": 2600.0,
       "DOUBLE": 3400.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SOMNATH",
@@ -3023,12 +3023,12 @@
       "SINGLE": 3600.0,
       "DOUBLE": 4400.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SOMNATH",
@@ -3038,27 +3038,27 @@
       "SINGLE": 4100.0,
       "DOUBLE": 4900.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SOMNATH",
       "Hotel": "Central Beacon Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
@@ -3068,12 +3068,12 @@
       "SINGLE": 3500.0,
       "DOUBLE": 4300.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
@@ -3083,12 +3083,12 @@
       "SINGLE": 4000.0,
       "DOUBLE": 4800.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
@@ -3098,27 +3098,27 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5600.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
       "Hotel": "The Fern",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
@@ -3128,12 +3128,12 @@
       "SINGLE": 2700.0,
       "DOUBLE": 3000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
@@ -3143,27 +3143,27 @@
       "SINGLE": 3000.0,
       "DOUBLE": 3600.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
@@ -3175,10 +3175,10 @@
       "EXTRA PERSON": 800,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
@@ -3190,10 +3190,10 @@
       "EXTRA PERSON": 800,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
@@ -3205,40 +3205,40 @@
       "EXTRA PERSON": 800,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
       "Hotel": "The Beacon Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VADODARA",
       "Hotel": "The Beacon Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3250,10 +3250,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1500.0,
       "DINNER": 1700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3265,10 +3265,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1500.0,
       "DINNER": 1700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3280,10 +3280,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1500.0,
       "DINNER": 1700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3295,25 +3295,25 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1500.0,
       "DINNER": 1700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
       "Hotel": "Meluha The Fern, Powai",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3325,10 +3325,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1000.0,
       "DINNER": 1200.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3340,25 +3340,25 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1000.0,
       "DINNER": 1200.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
       "Hotel": "Rodas Ecotel, Powai",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3370,10 +3370,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 800.0,
       "DINNER": 1000.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3385,10 +3385,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 800.0,
       "DINNER": 1000.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3400,10 +3400,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 800.0,
       "DINNER": 1000.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3415,10 +3415,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 800.0,
       "DINNER": 800.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3430,25 +3430,25 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 800.0,
       "DINNER": 800.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
       "Hotel": "The Fern Residency, Chembur",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3458,12 +3458,12 @@
       "SINGLE": 4100.0,
       "DOUBLE": 4600.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3473,12 +3473,12 @@
       "SINGLE": 4600.0,
       "DOUBLE": 5100.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3488,12 +3488,12 @@
       "SINGLE": 5600.0,
       "DOUBLE": 6100.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3503,27 +3503,27 @@
       "SINGLE": 7200.0,
       "DOUBLE": 7200.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
       "Hotel": "The Fern Residency, Bhiwandi",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3533,12 +3533,12 @@
       "SINGLE": 4650.0,
       "DOUBLE": 5150.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3548,27 +3548,27 @@
       "SINGLE": 6150.0,
       "DOUBLE": 6750.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
       "Hotel": "T2 Beacon Hotel, Andheri",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3578,42 +3578,42 @@
       "SINGLE": 5500.0,
       "DOUBLE": 6000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
       "Hotel": "Adiva Residency Beacon, Grant Road",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
       "Hotel": "Adiva Residency Beacon, Grant Road",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3625,10 +3625,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 550.0,
       "DINNER": 550.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
@@ -3640,25 +3640,25 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 550.0,
       "DINNER": 550.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MUMBAI",
       "Hotel": "Apex Beacon Hotel, J.B.Nagar, Andheri",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "NAVI MUMBAI (TURBHE)",
@@ -3670,10 +3670,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "NAVI MUMBAI (TURBHE)",
@@ -3685,10 +3685,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "NAVI MUMBAI (TURBHE)",
@@ -3700,10 +3700,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "NAVI MUMBAI (TURBHE)",
@@ -3715,10 +3715,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AURANGABAD (CHHATRAPATI SAMBHAJI\nNAGAR)",
@@ -3728,12 +3728,12 @@
       "SINGLE": 4750.0,
       "DOUBLE": 5250.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AURANGABAD (CHHATRAPATI SAMBHAJI\nNAGAR)",
@@ -3743,12 +3743,12 @@
       "SINGLE": 5250.0,
       "DOUBLE": 5750.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AURANGABAD (CHHATRAPATI SAMBHAJI\nNAGAR)",
@@ -3758,27 +3758,27 @@
       "SINGLE": 6250.0,
       "DOUBLE": 6750.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "AURANGABAD (CHHATRAPATI SAMBHAJI\nNAGAR)",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": ".",
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DAPOLI (RATNAGIRI)",
@@ -3790,10 +3790,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DAPOLI (RATNAGIRI)",
@@ -3805,10 +3805,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DAPOLI (RATNAGIRI)",
@@ -3820,10 +3820,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "DAPOLI (RATNAGIRI)",
@@ -3835,10 +3835,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANPATIPULE",
@@ -3850,10 +3850,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANPATIPULE",
@@ -3865,10 +3865,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANPATIPULE",
@@ -3880,10 +3880,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANPATIPULE",
@@ -3895,10 +3895,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANPATIPULE",
@@ -3910,10 +3910,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANPATIPULE",
@@ -3925,10 +3925,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HATGAD",
@@ -3940,10 +3940,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HATGAD",
@@ -3955,10 +3955,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HATGAD",
@@ -3970,10 +3970,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HATGAD",
@@ -3985,10 +3985,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HATGAD",
@@ -4000,10 +4000,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 700.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ICHALKARANJI",
@@ -4013,12 +4013,12 @@
       "SINGLE": 6000.0,
       "DOUBLE": 8000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ICHALKARANJI",
@@ -4028,12 +4028,12 @@
       "SINGLE": 6000.0,
       "DOUBLE": 8000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ICHALKARANJI",
@@ -4043,12 +4043,12 @@
       "SINGLE": 6000.0,
       "DOUBLE": 8000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ICHALKARANJI",
@@ -4058,12 +4058,12 @@
       "SINGLE": 6000.0,
       "DOUBLE": 8000.0,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "IGATPURI",
@@ -4075,10 +4075,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 850.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "IGATPURI",
@@ -4090,10 +4090,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 850.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "IGATPURI",
@@ -4105,10 +4105,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 850.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "IGATPURI",
@@ -4120,10 +4120,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 850.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KARAD",
@@ -4133,42 +4133,42 @@
       "SINGLE": 6000.0,
       "DOUBLE": 8000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KARAD",
       "Hotel": "Bangalore Highway, Karad",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KARAD",
       "Hotel": "Bangalore Highway, Karad",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KARJAT",
@@ -4180,10 +4180,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KARJAT",
@@ -4195,10 +4195,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KARJAT",
@@ -4210,10 +4210,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KOLHAPUR",
@@ -4223,12 +4223,12 @@
       "SINGLE": 5500.0,
       "DOUBLE": 7500.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KOLHAPUR",
@@ -4238,12 +4238,12 @@
       "SINGLE": 5500.0,
       "DOUBLE": 7500.0,
       "EXTRA PERSON": 1250,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KOLHAPUR",
@@ -4253,12 +4253,12 @@
       "SINGLE": 5500.0,
       "DOUBLE": 7500.0,
       "EXTRA PERSON": 1250,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KOLHAPUR",
@@ -4268,27 +4268,27 @@
       "SINGLE": 5500.0,
       "DOUBLE": 7500.0,
       "EXTRA PERSON": 1250,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KOLHAPUR",
       "Hotel": "The Fern",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
@@ -4300,10 +4300,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1000.0,
       "DINNER": 1000.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
@@ -4315,10 +4315,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1000.0,
       "DINNER": 1000.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
@@ -4330,25 +4330,25 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1000.0,
       "DINNER": 1000.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
       "Hotel": "The Fern",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
@@ -4360,10 +4360,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
@@ -4375,10 +4375,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
@@ -4390,10 +4390,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
@@ -4405,10 +4405,10 @@
       "EXTRA PERSON": 15000,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
@@ -4420,10 +4420,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
@@ -4435,25 +4435,25 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "LONAVALA",
       "Hotel": "Viola Beacon Resort",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MAHABALESHWAR",
@@ -4465,10 +4465,10 @@
       "EXTRA PERSON": 1750,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MAHABALESHWAR",
@@ -4480,10 +4480,10 @@
       "EXTRA PERSON": 1750,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MAHABALESHWAR",
@@ -4495,25 +4495,25 @@
       "EXTRA PERSON": 1750,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "MAHABALESHWAR",
       "Hotel": "Valley View Beacon Resort",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PALGHAR",
@@ -4525,10 +4525,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PALGHAR",
@@ -4540,10 +4540,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PALGHAR",
@@ -4555,10 +4555,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PALGHAR",
@@ -4570,10 +4570,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PALGHAR",
@@ -4585,10 +4585,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PANCHGANI",
@@ -4598,12 +4598,12 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PANCHGANI",
@@ -4613,27 +4613,27 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PANCHGANI",
       "Hotel": "Orient Beacon Resort",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PARBHANI",
@@ -4643,27 +4643,27 @@
       "SINGLE": 3000.0,
       "DOUBLE": 3500.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PARBHANI",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4675,10 +4675,10 @@
       "EXTRA PERSON": 1250,
       "LUNCH": 850.0,
       "DINNER": 950.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4690,10 +4690,10 @@
       "EXTRA PERSON": 1250,
       "LUNCH": 850.0,
       "DINNER": 950.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4705,10 +4705,10 @@
       "EXTRA PERSON": 1250,
       "LUNCH": 850.0,
       "DINNER": 950.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4720,10 +4720,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 750.0,
       "DINNER": 850.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4735,10 +4735,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 750.0,
       "DINNER": 850.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4750,10 +4750,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 750.0,
       "DINNER": 850.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4765,10 +4765,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 750.0,
       "DINNER": 850.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4778,12 +4778,12 @@
       "SINGLE": 3500.0,
       "DOUBLE": 4000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4793,12 +4793,12 @@
       "SINGLE": 4000.0,
       "DOUBLE": 4500.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4808,12 +4808,12 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5500.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4823,27 +4823,27 @@
       "SINGLE": 5800.0,
       "DOUBLE": 6300.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
       "Hotel": "The Fern Residency Woodland",
       "ROOM CATEGORY": ".",
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4853,27 +4853,27 @@
       "SINGLE": 4000.0,
       "DOUBLE": 4500.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
       "Hotel": "The Fern Residency MIDC",
       "ROOM CATEGORY": ".",
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4885,10 +4885,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4900,25 +4900,25 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 650.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
       "Hotel": "The Fern Residency Vadgaon - Talegaon",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4928,12 +4928,12 @@
       "SINGLE": 4000.0,
       "DOUBLE": 4500.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4943,12 +4943,12 @@
       "SINGLE": 4500.0,
       "DOUBLE": 5000.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4958,12 +4958,12 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5500.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
@@ -4973,27 +4973,27 @@
       "SINGLE": 5500.0,
       "DOUBLE": 6000.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "PUNE",
       "Hotel": "BEACON NIBM",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SATARA",
@@ -5003,12 +5003,12 @@
       "SINGLE": 3750.0,
       "DOUBLE": 4250.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SATARA",
@@ -5018,42 +5018,42 @@
       "SINGLE": 4750.0,
       "DOUBLE": 5250.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SATARA",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": ".",
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SATARA",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5065,10 +5065,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5080,10 +5080,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5095,10 +5095,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 750.0,
       "DINNER": 750.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5110,10 +5110,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5125,10 +5125,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5140,10 +5140,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5155,10 +5155,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5170,10 +5170,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5185,10 +5185,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5200,10 +5200,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5215,10 +5215,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5230,10 +5230,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5245,10 +5245,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 650.0,
       "DINNER": 700.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5258,12 +5258,12 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5500.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5273,12 +5273,12 @@
       "SINGLE": 5500.0,
       "DOUBLE": 5990.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5288,27 +5288,27 @@
       "SINGLE": 7150.0,
       "DOUBLE": 7150.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
       "Hotel": "The Fern Residency, Calangute",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5318,12 +5318,12 @@
       "SINGLE": 3800.0,
       "DOUBLE": 4200.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5333,27 +5333,27 @@
       "SINGLE": 4200.0,
       "DOUBLE": 4700.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
       "Hotel": "The Fern Residency, Miramar",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5365,10 +5365,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5380,10 +5380,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
@@ -5395,25 +5395,25 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 550.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GOA",
       "Hotel": "La-Paz Gardens Beacon, Vasco da Gama",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BELAGAVI",
@@ -5423,12 +5423,12 @@
       "SINGLE": 4600.0,
       "DOUBLE": 5100.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BELAGAVI",
@@ -5438,12 +5438,12 @@
       "SINGLE": 5100.0,
       "DOUBLE": 5600.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BELAGAVI",
@@ -5453,27 +5453,27 @@
       "SINGLE": 6100.0,
       "DOUBLE": 6100.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BELAGAVI",
       "Hotel": "UK27 The Fern",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BENGALURU",
@@ -5483,12 +5483,12 @@
       "SINGLE": 4400.0,
       "DOUBLE": 5000.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BENGALURU",
@@ -5498,12 +5498,12 @@
       "SINGLE": 5500.0,
       "DOUBLE": 6100.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BENGALURU",
@@ -5513,27 +5513,27 @@
       "SINGLE": 6600.0,
       "DOUBLE": 6600.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "BENGALURU",
       "Hotel": "The Fern Residency Yeshwanthpur",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HUBBALLI (HUBLI)",
@@ -5543,12 +5543,12 @@
       "SINGLE": 3400.0,
       "DOUBLE": 3900.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HUBBALLI (HUBLI)",
@@ -5558,12 +5558,12 @@
       "SINGLE": 3900.0,
       "DOUBLE": 4400.0,
       "EXTRA PERSON": 1500,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HUBBALLI (HUBLI)",
@@ -5573,27 +5573,27 @@
       "SINGLE": 6000.0,
       "DOUBLE": 6000.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "HUBBALLI (HUBLI)",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KAKINADA",
@@ -5603,12 +5603,12 @@
       "SINGLE": 2950.0,
       "DOUBLE": 3450.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KAKINADA",
@@ -5618,27 +5618,27 @@
       "SINGLE": 4200.0,
       "DOUBLE": 4500.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KAKINADA",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KOCHI",
@@ -5650,10 +5650,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1250.0,
       "DINNER": 1500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KOCHI",
@@ -5665,10 +5665,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1250.0,
       "DINNER": 1500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KOCHI",
@@ -5680,10 +5680,10 @@
       "EXTRA PERSON": 1500,
       "LUNCH": 1250.0,
       "DINNER": 1500.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SHIVAMOGGA",
@@ -5693,12 +5693,12 @@
       "SINGLE": 3400.0,
       "DOUBLE": 3900.0,
       "EXTRA PERSON": 1200,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SHIVAMOGGA",
@@ -5708,12 +5708,12 @@
       "SINGLE": 3900.0,
       "DOUBLE": 4400.0,
       "EXTRA PERSON": 1200,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SHIVAMOGGA",
@@ -5723,27 +5723,27 @@
       "SINGLE": 6400.0,
       "DOUBLE": 6400.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "SHIVAMOGGA",
       "Hotel": "Harsha The Fern",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VIJAYAPURA",
@@ -5753,12 +5753,12 @@
       "SINGLE": 3250.0,
       "DOUBLE": 3750.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VIJAYAPURA",
@@ -5768,12 +5768,12 @@
       "SINGLE": 4250.0,
       "DOUBLE": 4750.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VIJAYAPURA",
@@ -5783,27 +5783,27 @@
       "SINGLE": 6550.0,
       "DOUBLE": 6550.0,
       "EXTRA PERSON": "-",
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VIJAYAPURA",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VISAKHAPATNAM",
@@ -5813,12 +5813,12 @@
       "SINGLE": 2650.0,
       "DOUBLE": 3150.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VISAKHAPATNAM",
@@ -5828,12 +5828,12 @@
       "SINGLE": 2850.0,
       "DOUBLE": 3350.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VISAKHAPATNAM",
@@ -5843,42 +5843,42 @@
       "SINGLE": 5000.0,
       "DOUBLE": 5000.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VISAKHAPATNAM",
       "Hotel": "The Beacon Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "VISAKHAPATNAM",
       "Hotel": "The Beacon Hotel",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ASANSOL",
@@ -5888,12 +5888,12 @@
       "SINGLE": 3600.0,
       "DOUBLE": 4100.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ASANSOL",
@@ -5903,27 +5903,27 @@
       "SINGLE": 4900.0,
       "DOUBLE": 5400.0,
       "EXTRA PERSON": 1000,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "ASANSOL",
       "Hotel": "The Fern Residency",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANGTOK",
@@ -5935,10 +5935,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANGTOK",
@@ -5950,10 +5950,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANGTOK",
@@ -5965,25 +5965,25 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 650.0,
       "DINNER": 650.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "GANGTOK",
       "Hotel": "The Fern Denzong Hotel & Spa",
       "ROOM CATEGORY": null,
       "PLAN": null,
-      "SINGLE": "null",
-      "DOUBLE": "null",
+      "SINGLE": null,
+      "DOUBLE": null,
       "EXTRA PERSON": null,
-      "LUNCH": "null",
-      "DINNER": "null",
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "LUNCH": null,
+      "DINNER": null,
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KOLKATA",
@@ -5995,10 +5995,10 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 600.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     },
     {
       "City": "KOLKATA",
@@ -6010,20 +6010,20 @@
       "EXTRA PERSON": 1000,
       "LUNCH": 600.0,
       "DINNER": 600.0,
-      "COMMENT": "null",
-      "SUPPLEMENTARY": "null",
-      "SUPP START DATE": "NaT",
-      "SUPP END END": "NaT"
+      "COMMENT": null,
+      "SUPPLEMENTARY": null,
+      "SUPP START DATE": null,
+      "SUPP END END": null
     }
   ],
   "Black Out Date": [
     {
-      "Unnamed: 0": "null",
+      "Unnamed: 0": null,
       "Unnamed: 1": "Black Out Start",
       "Unnamed: 2": "Black Out End"
     },
     {
-      "Unnamed: 0": "null",
+      "Unnamed: 0": null,
       "Unnamed: 1": "2025-12-31T00:00:00",
       "Unnamed: 2": "2026-01-02T00:00:00"
     }
