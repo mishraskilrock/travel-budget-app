@@ -3,13 +3,25 @@
  ****************************************************/
 let data = [];
 let travelSummary = [];
-let locationCounter = 1;
 
 /****************************************************
- * DEBUG LOGGER (VERY IMPORTANT)
+ * DEBUG LOGGER
  ****************************************************/
 function debug(msg, obj = "") {
   console.log(`[TravelApp DEBUG] ${msg}`, obj);
+}
+
+/****************************************************
+ * SAFE ELEMENT GETTER
+ ****************************************************/
+function getVal(id, def = "") {
+  const el = document.getElementById(id);
+  return el ? el.value : def;
+}
+
+function getNum(id) {
+  const el = document.getElementById(id);
+  return el ? Number(el.value || 0) : 0;
 }
 
 /****************************************************
@@ -18,88 +30,72 @@ function debug(msg, obj = "") {
 debug("Application loading...");
 
 fetch("./rates.json")
-  .then(response => {
-    if (!response.ok) {
-      throw new Error("HTTP error " + response.status);
-    }
-    return response.json();
+  .then(res => {
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
   })
   .then(json => {
-  if (!Array.isArray(json)) {
-    throw new Error("Invalid JSON structure: expected an array");
-  }
-
-  data = json;
-  debug("Rates loaded successfully", data.length);
-  populateCities();
-})
-  .catch(error => {
-    console.error("[TravelApp ERROR] Failed to load rates.json", error);
+    if (!Array.isArray(json)) {
+      throw new Error("rates.json must be an array");
+    }
+    data = json;
+    debug("Rates loaded successfully", data.length);
+    populateCities();
+  })
+  .catch(err => {
+    console.error("[TravelApp ERROR] Failed to load rates.json", err);
     alert(
       "Rates could not be loaded.\n\n" +
-      "Please check:\n" +
-      "1. rates.json exists in repo root\n" +
-      "2. JSON structure is { data: [...] }\n" +
-      "3. Console for detailed error"
+      "Open DevTools → Console for exact error."
     );
   });
 
 /****************************************************
- * DROPDOWN POPULATION FUNCTIONS
+ * DROPDOWNS
  ****************************************************/
 function populateCities() {
-  debug("Populating cities");
-  const citySelect = document.getElementById("city");
-  citySelect.innerHTML = `<option value="">Select City</option>`;
+  const city = document.getElementById("city");
+  city.innerHTML = `<option value="">Select City</option>`;
 
-  [...new Set(data.map(d => d.City).filter(Boolean))].forEach(city => {
-    citySelect.innerHTML += `<option>${city}</option>`;
-  });
+  [...new Set(data.map(d => d.City).filter(Boolean))]
+    .forEach(c => city.innerHTML += `<option>${c}</option>`);
 }
 
 function populateHotels() {
-  const city = document.getElementById("city").value;
+  const city = getVal("city");
   debug("Selected city:", city);
 
-  const hotelSelect = document.getElementById("hotel");
-  hotelSelect.innerHTML = `<option value="">Select Hotel</option>`;
-
+  const hotel = document.getElementById("hotel");
+  hotel.innerHTML = `<option value="">Select Hotel</option>`;
   resetBelow("hotel");
 
-  [...new Set(
-    data.filter(d => d.City === city).map(d => d.Hotel)
-  )].forEach(hotel => {
-    hotelSelect.innerHTML += `<option>${hotel}</option>`;
-  });
+  [...new Set(data.filter(d => d.City === city).map(d => d.Hotel))]
+    .forEach(h => hotel.innerHTML += `<option>${h}</option>`);
 }
 
 function populateRooms() {
-  const city = document.getElementById("city").value;
-  const hotel = document.getElementById("hotel").value;
+  const city = getVal("city");
+  const hotel = getVal("hotel");
   debug("Selected hotel:", hotel);
 
-  const roomSelect = document.getElementById("room");
-  roomSelect.innerHTML = `<option value="">Select Room</option>`;
-
+  const room = document.getElementById("room");
+  room.innerHTML = `<option value="">Select Room</option>`;
   resetBelow("room");
 
   [...new Set(
     data.filter(d => d.City === city && d.Hotel === hotel)
         .map(d => d["ROOM CATEGORY"])
-  )].forEach(room => {
-    roomSelect.innerHTML += `<option>${room}</option>`;
-  });
+  )].forEach(r => room.innerHTML += `<option>${r}</option>`);
 }
 
 function populatePlans() {
-  const city = cityVal();
-  const hotel = hotelVal();
-  const room = roomVal();
-
+  const city = getVal("city");
+  const hotel = getVal("hotel");
+  const room = getVal("room");
   debug("Selected room:", room);
 
-  const planSelect = document.getElementById("plan");
-  planSelect.innerHTML = `<option value="">Select Plan</option>`;
+  const plan = document.getElementById("plan");
+  plan.innerHTML = `<option value="">Select Plan</option>`;
 
   [...new Set(
     data.filter(d =>
@@ -107,35 +103,32 @@ function populatePlans() {
       d.Hotel === hotel &&
       d["ROOM CATEGORY"] === room
     ).map(d => d.PLAN)
-  )].forEach(plan => {
-    planSelect.innerHTML += `<option>${plan}</option>`;
-  });
+  )].forEach(p => plan.innerHTML += `<option>${p}</option>`);
 }
 
 /****************************************************
- * CALCULATION LOGIC
+ * CALCULATE & ADD LOCATION
  ****************************************************/
 function calculate() {
-  const city = cityVal();
-  const hotel = hotelVal();
-  const room = roomVal();
-  const plan = planVal();
+  const city = getVal("city");
+  const hotel = getVal("hotel");
+  const room = getVal("room");
+  const plan = getVal("plan");
 
-  const singleRooms = +document.getElementById("singleRooms").value || 0;
-  const doubleRooms = +document.getElementById("doubleRooms").value || 0;
-  const extraPersons = +document.getElementById("extraPersons").value || 0;
+  const single = getNum("singleRooms");
+  const double = getNum("doubleRooms");
+  const extra  = getNum("extraPersons");
 
-  const startDate = new Date(document.getElementById("startDate").value);
-  const endDate = new Date(document.getElementById("endDate").value);
+  const startDate = new Date(getVal("startDate"));
+  const endDate   = new Date(getVal("endDate"));
 
-  if (!city || !hotel || !room || !plan || !startDate || !endDate) {
-    alert("Please fill all required fields");
+  if (!city || !hotel || !room || !plan || isNaN(startDate) || isNaN(endDate)) {
+    alert("Please complete all selections");
     return;
   }
 
   const nights = Math.max(
-    Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)),
-    1
+    Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)), 1
   );
 
   const rate = data.find(d =>
@@ -146,21 +139,21 @@ function calculate() {
   );
 
   if (!rate) {
-    alert("Rate not found");
+    alert("Rate not found for selected combination");
     return;
   }
 
   const total =
     nights *
     (
-      singleRooms * rate.SINGLE +
-      doubleRooms * rate.DOUBLE +
-      extraPersons * rate["EXTRA PERSON"]
+      single * rate.SINGLE +
+      double * rate.DOUBLE +
+      extra  * rate["EXTRA PERSON"]
     );
 
   const summary = {
     city, hotel, room, plan,
-    nights, singleRooms, doubleRooms, extraPersons,
+    nights, single, double, extra,
     total
   };
 
@@ -172,7 +165,7 @@ function calculate() {
 }
 
 /****************************************************
- * SUMMARY RENDERING
+ * SUMMARY
  ****************************************************/
 function renderSummary() {
   const result = document.getElementById("result");
@@ -188,38 +181,38 @@ function renderSummary() {
         <p><b>Room:</b> ${s.room}</p>
         <p><b>Plan:</b> ${s.plan}</p>
         <p><b>Nights:</b> ${s.nights}</p>
-        <p><b>Single Rooms:</b> ${s.singleRooms}</p>
-        <p><b>Double Rooms:</b> ${s.doubleRooms}</p>
-        <p><b>Extra Persons:</b> ${s.extraPersons}</p>
+        <p><b>Single Rooms:</b> ${s.single}</p>
+        <p><b>Double Rooms:</b> ${s.double}</p>
+        <p><b>Extra Persons:</b> ${s.extra}</p>
         <p><b>Location Total:</b> ₹${s.total.toLocaleString()}</p>
       </div>
     `;
   });
 
-  html += `<h2>Total Budget: ₹${grandTotal.toLocaleString()}</h2>`;
+  html += `<h2>Grand Total: ₹${grandTotal.toLocaleString()}</h2>`;
   result.innerHTML = html;
 }
 
 /****************************************************
- * PDF DOWNLOAD
+ * PDF
  ****************************************************/
 function downloadPDF() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
-
   let y = 20;
+
   doc.setFontSize(16);
   doc.text("Travel Budget Summary", 20, y);
   y += 10;
 
   travelSummary.forEach((s, i) => {
     doc.setFontSize(12);
-    doc.text(`Location ${i + 1}: ${s.city}`, 20, y); y += 8;
+    doc.text(`Location ${i + 1}: ${s.city}`, 20, y); y += 7;
     doc.text(`Hotel: ${s.hotel}`, 20, y); y += 6;
     doc.text(`Room: ${s.room}`, 20, y); y += 6;
     doc.text(`Plan: ${s.plan}`, 20, y); y += 6;
     doc.text(`Nights: ${s.nights}`, 20, y); y += 6;
-    doc.text(`Single: ${s.singleRooms}, Double: ${s.doubleRooms}, Extra: ${s.extraPersons}`, 20, y); y += 6;
+    doc.text(`Single: ${s.single}, Double: ${s.double}, Extra: ${s.extra}`, 20, y); y += 6;
     doc.text(`Total: ₹${s.total}`, 20, y); y += 10;
   });
 
@@ -227,22 +220,22 @@ function downloadPDF() {
 }
 
 /****************************************************
- * CONFIRM & EMAIL (CLIENT SIDE SAFE)
+ * EMAIL CONFIRM
  ****************************************************/
 function confirmAndEmail() {
-  const email = prompt("Enter your email ID to confirm booking:");
+  const email = prompt("Enter email ID to confirm booking:");
   if (!email) return;
 
   const subject = "Travel Package Confirmation";
   const body = encodeURIComponent(
-    "I agree with the travel quotation.\n\nPlease find the attached budget PDF.\n\nThank you."
+    "I agree with the travel quotation.\nPlease proceed with booking."
   );
 
   window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
 }
 
 /****************************************************
- * UTILITIES
+ * HELPERS
  ****************************************************/
 function resetForm() {
   document.querySelectorAll("select, input").forEach(el => el.value = "");
@@ -257,9 +250,3 @@ function resetBelow(id) {
     document.getElementById("plan").innerHTML = `<option value="">Select Plan</option>`;
   }
 }
-
-const cityVal = () => document.getElementById("city").value;
-const hotelVal = () => document.getElementById("hotel").value;
-const roomVal = () => document.getElementById("room").value;
-const planVal = () => document.getElementById("plan").value;
-
