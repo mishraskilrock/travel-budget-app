@@ -119,21 +119,23 @@ function calculate() {
   const double = getNum("doubleRooms");
   const extra  = getNum("extraPersons");
 
-  const startDate = new Date(getVal("startDate"));
-  const endDate   = new Date(getVal("endDate"));
+  const startDateVal = getVal("startDate");
+  const endDateVal = getVal("endDate");
 
-  /*
-
-  if (!city || !hotel || !room || !plan || !startDate || !endDate) {
+  if (!city || !hotel || !room || !plan || !startDateVal || !endDateVal) {
     alert("Please complete all selections");
     return;
   }
 
-  */
+  const startDate = new Date(startDateVal);
+  const endDate = new Date(endDateVal);
 
   const nights = Math.max(
-    Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)), 1
+    Math.round((endDate - startDate) / (1000 * 60 * 60 * 24)),
+    1
   );
+
+  console.log("[TravelApp DEBUG] Nights:", nights);
 
   const rate = data.find(d =>
     d.City === city &&
@@ -254,5 +256,6 @@ function resetBelow(id) {
     document.getElementById("plan").innerHTML = `<option value="">Select Plan</option>`;
   }
 }
+
 
 
