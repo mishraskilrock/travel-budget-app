@@ -122,7 +122,7 @@ function calculate() {
   const startDate = new Date(getVal("startDate"));
   const endDate   = new Date(getVal("endDate"));
 
-  if (!city || !hotel || !room || !plan || isNaN(startDate) || isNaN(endDate)) {
+  if (!city || !hotel || !room || !plan || !startDate || !endDate) {
     alert("Please complete all selections");
     return;
   }
@@ -250,3 +250,4 @@ function resetBelow(id) {
     document.getElementById("plan").innerHTML = `<option value="">Select Plan</option>`;
   }
 }
+
