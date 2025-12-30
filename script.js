@@ -122,10 +122,14 @@ function calculate() {
   const startDate = new Date(getVal("startDate"));
   const endDate   = new Date(getVal("endDate"));
 
+  /*
+
   if (!city || !hotel || !room || !plan || !startDate || !endDate) {
     alert("Please complete all selections");
     return;
   }
+
+  */
 
   const nights = Math.max(
     Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24)), 1
@@ -250,4 +254,5 @@ function resetBelow(id) {
     document.getElementById("plan").innerHTML = `<option value="">Select Plan</option>`;
   }
 }
+
 
