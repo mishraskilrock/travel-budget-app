@@ -7,16 +7,6 @@
 </head>
 
 <body>
-
-<!-- SIDE LOGOS -->
-<div class="side-logo left-logo">
-  <img src="https://raw.githubusercontent.com/mishraskilrock/travel-budget-app/main/Inland_logo.PNG">
-</div>
-
-<div class="side-logo right-logo">
-  <img src="https://raw.githubusercontent.com/mishraskilrock/travel-budget-app/main/Inland_logo.PNG">
-</div>
-
 <div class="container">
 
   <h2>Travel Budget Calculator</h2>
@@ -38,12 +28,7 @@
 
   <div class="form-group">
     <label>Plan</label>
-    <select id="plan">
-      <option value="">Select Plan</option>
-      <option value="CP">CP</option>
-      <option value="MP">MP</option>
-      <option value="AP">AP</option>
-    </select>
+    <select id="plan"></select>
   </div>
 
   <div class="form-row">
@@ -70,8 +55,8 @@
     <label>End Date</label>
     <input type="date" id="endDate">
   </div>
- <button type="button" onclick="calculate()">➕ Add Location</button>
 
+  <button onclick="addLocation()">➕ Add Location</button>
   <button class="pdf-btn" onclick="downloadPDF()">Download PDF</button>
   <button class="confirm-btn" onclick="confirmBooking()">✅ Confirm & Email Booking</button>
 
@@ -81,7 +66,5 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="script.js"></script>
-
 </body>
 </html>
-
