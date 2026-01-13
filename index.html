@@ -7,8 +7,34 @@
 </head>
 
 <body>
-<div class="container">
 
+<img src="Inland_logo.PNG" style="
+position:fixed;
+left:20px;
+top:50%;
+transform:translateY(-50%);
+width:120px;
+opacity:0.9;
+">
+
+<img src="Inland_logo.PNG" style="
+position:fixed;
+right:20px;
+top:50%;
+transform:translateY(-50%);
+width:120px;
+opacity:0.9;
+">
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="openTab('hotelTab')">Hotel</button>
+  <button class="tab-btn" onclick="openTab('cabTab')">Cab</button>
+  <button class="tab-btn" onclick="openTab('summaryTab')">Summary</button>
+</div>
+
+<!-- HOTEL TAB -->
+<div id="hotelTab" class="tab-content" style="display:block;">
+<div class="container">
   <h2>Travel Budget Calculator</h2>
 
   <div class="form-group">
@@ -61,7 +87,52 @@
   <button class="confirm-btn" onclick="confirmBooking()">✅ Confirm & Email Booking</button>
 
   <div id="result" class="result-box"></div>
+</div>
+</div>
 
+<!-- CAB TAB -->
+<div id="cabTab" class="tab-content">
+  <div class="container">
+    <h2>Cab Budget Calculator</h2>
+
+    <div class="form-group">
+      <label>Cab Type</label>
+      <select id="cabType">
+        <option value="">Select Cab</option>
+        <option value="SEDAN">Sedan</option>
+        <option value="SUV">SUV</option>
+        <option value="TEMPO">Tempo</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Total KM</label>
+      <input type="number" id="cabKm" value="100">
+    </div>
+
+    <div class="form-group">
+      <label>Total Days</label>
+      <input type="number" id="cabDays" value="1">
+    </div>
+
+    <button onclick="calculateCab()">➕ Add Cab</button>
+    <button class="pdf-btn" onclick="downloadCabPDF()">Download Cab PDF</button>
+
+    <div id="cabResult" class="result-box"></div>
+  </div>
+</div>
+
+<!-- SUMMARY TAB -->
+<div id="summaryTab" class="tab-content">
+  <div class="container">
+    <h2>Total Travel Summary</h2>
+
+    <button class="pdf-btn" onclick="downloadTotalPDF()">Download Full Summary PDF</button>
+
+    <div id="finalSummary" class="result-box"></div>
+
+    <button class="pdf-btn" onclick="downloadTotalPDF()">Download Full Summary PDF</button>
+  </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
