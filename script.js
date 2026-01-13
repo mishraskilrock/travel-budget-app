@@ -244,8 +244,9 @@ function calculateCab(){
   const type = cabType.value;
   const km = Number(cabKm.value);
   const days = Number(cabDays.value);
+  const date = cabDate.value;
 
-  if(!type || km <=0 || days<=0){
+  if(!type || km <=0 || days<=0 || !date){
     alert("Enter valid cab details");
     return;
   }
@@ -262,13 +263,17 @@ function calculateCab(){
     type,
     km,
     days,
+    date,
     rate,
     total
   });
 
   renderCabSummary();
   renderFinalSummary();
+
+  cabDate.value = "";
 }
+
 
 function renderCabSummary(){
   let html = `<h3>Cab Summary</h3>`;
@@ -278,6 +283,7 @@ function renderCabSummary(){
     total+=c.total;
     html+=`
     <hr>
+    <p><b>Date:</b> ${c.date}</p>
     <p><b>Cab ${i+1}: ${c.type}</b></p>
     <p>KM: ${c.km}</p>
     <p>Days: ${c.days}</p>
@@ -290,57 +296,80 @@ function renderCabSummary(){
 }
 
 function renderFinalSummary(){
-  let hotelTotal = trips.reduce((a,b)=>a+b.total,0);
-  let cabTotal = cabTrips.reduce((a,b)=>a+b.total,0);
-  let grand = hotelTotal + cabTotal;
+  let html = `<h3>Complete Travel Summary</h3>`;
+  let grand = 0;
 
-  finalSummary.innerHTML = `
-    <p><b>Hotel Total:</b> ₹${hotelTotal}</p>
-    <p><b>Cab Total:</b> ₹${cabTotal}</p>
-    <hr>
-    <h3>Grand Total: ₹${grand}</h3>
-  `;
+  trips.forEach((t,i)=>{
+    grand += t.total;
+    html+=`
+      <hr>
+      <p><b>Hotel ${i+1}: ${t.city}</b></p>
+      <p>Dates: ${t.startDate} to ${t.endDate}</p>
+      <p>Total: ₹${t.total}</p>`;
+  });
+
+  cabTrips.forEach((c,i)=>{
+    grand += c.total;
+    html+=`
+      <hr>
+      <p><b>Cab ${i+1}: ${c.type}</b></p>
+      <p>Date: ${c.date}</p>
+      <p>Total: ₹${c.total}</p>`;
+  });
+
+  html+=`<hr><h3>Grand Total: ₹${grand}</h3>`;
+  finalSummary.innerHTML = html;
 }
+
 
 function downloadCabPDF(){
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
+  let y = 20;
 
   doc.setFontSize(16);
-  doc.text("Cab Budget Summary", 70, 20);
+  doc.text("Cab Budget Summary", 105, 15, { align:"center" });
 
-  let y=40;
-  let total = 0;
+  doc.setFontSize(10);
 
   cabTrips.forEach((c,i)=>{
-    total+=c.total;
-    doc.text(`Cab ${i+1}: ${c.type}`,10,y); y+=6;
-    doc.text(`KM: ${c.km}`,10,y); y+=6;
-    doc.text(`Days: ${c.days}`,10,y); y+=6;
-    doc.text(`Total: ₹${c.total}`,10,y); y+=10;
+    doc.text(`Cab ${i+1}: ${c.type}`, 10, y); y+=5;
+    doc.text(`Date: ${c.date}`, 10, y); y+=5;
+    doc.text(`KM: ${c.km}`, 10, y); y+=5;
+    doc.text(`Days: ${c.days}`, 10, y); y+=5;
+    doc.text(`Total: INR ${c.total}`, 10, y); y+=8;
   });
 
-  doc.text(`Grand Total: ₹${total}`,10,y+10);
-
-  doc.save("Cab_Summary.pdf");
+  doc.save("Cab_Budget.pdf");
 }
+
 
 function downloadTotalPDF(){
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
+  let y = 20;
+  let grand = 0;
 
-  doc.setFontSize(18);
-  doc.text("Complete Travel Summary", 60, 20);
+  doc.setFontSize(16);
+  doc.text("Complete Travel Summary",105,15,{align:"center"});
+  doc.setFontSize(10);
 
-  let y=40;
+  trips.forEach((t,i)=>{
+    grand+=t.total;
+    doc.text(`Hotel ${i+1}: ${t.city}`,10,y); y+=5;
+    doc.text(`Dates: ${t.startDate} to ${t.endDate}`,10,y); y+=5;
+    doc.text(`Total: INR ${t.total}`,10,y); y+=8;
+  });
 
-  doc.text("Hotel Total: ₹" + trips.reduce((a,b)=>a+b.total,0),10,y);
-  y+=10;
-  doc.text("Cab Total: ₹" + cabTrips.reduce((a,b)=>a+b.total,0),10,y);
-  y+=10;
-  doc.text("---------------------------",10,y);
-  y+=10;
-  doc.text("Grand Total: ₹" + (trips.reduce((a,b)=>a+b.total,0)+cabTrips.reduce((a,b)=>a+b.total,0)),10,y);
+  cabTrips.forEach((c,i)=>{
+    grand+=c.total;
+    doc.text(`Cab ${i+1}: ${c.type}`,10,y); y+=5;
+    doc.text(`Date: ${c.date}`,10,y); y+=5;
+    doc.text(`Total: INR ${c.total}`,10,y); y+=8;
+  });
 
-  doc.save("Total_Travel_Summary.pdf");
+  doc.setFont("helvetica","bold");
+  doc.text(`Grand Total: INR ${grand}`,10,y+5);
+
+  doc.save("Full_Travel_Summary.pdf");
 }
